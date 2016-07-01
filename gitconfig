@@ -1,0 +1,18 @@
+[user]
+	email = maxence.poutord@gmail.com
+	name = Maxence POUTORD
+	signingkey = 104ACC7C
+[credential]
+	helper = cache --timeout=3600
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	status = auto
+[core]
+	ui = true
+	editor = vim
+	autocrlf = false
+	whitespace = trailing-space,space-before-tab
+[github]
+	user = maxpou
