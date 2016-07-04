@@ -1,11 +1,45 @@
 # Dotfiles
 
-Here's my configuration files.
+This setup is intended for Ubuntu. Special thanks to whoever I stole it from :kissing_heart:
+
+## Aliases
+
+```sh
+cat $HOME/dotfiles/alias.sh >> ~/.zshrc
+source ~/.zshrc
+```
+
+## Git (&hub)
+
+```sh
+# Git
+ln -sf $HOME/dotfiles/gitconfig ~/.gitconfig
+```
 
 ## ATOM
 
-See: [my gist](https://gist.github.com/maxpou/5828f70ba994ee3b365d)
-Install packages: `apm stars --user maxpou --install`
+1. Install packages: `apm stars --user maxpou --install`
+2. Run
+
+    ```sh
+    ln -sf $HOME/dotfiles/vscode/keymap.cson $HOME/.atom/keymap.cson
+    ln -sf $HOME/dotfiles/vscode/config.cson $HOME/.atom/config.cson
+    ```
+
+Also see [my gist](https://gist.github.com/maxpou/5828f70ba994ee3b365d)  
+
+## VS Code
+
+```
+# Extensions (Inside VSCode)
+ext install vscode-icons
+```
+
+```sh
+# VS Code
+ln -sf $HOME/dotfiles/vscode/keybindings.json $HOME/.config/Code/User/keybindings.json
+ln -sf $HOME/dotfiles/vscode/settings.json $HOME/.config/Code/User/settings.json
+```
 
 ## Required tools
 

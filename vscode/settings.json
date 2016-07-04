@@ -1,4 +1,8 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "editor.renderWhitespace": true
+    "editor.renderWhitespace": true,
+    "files.exclude": {
+        "**/*.js": {"when": "$(basename).ts"},
+        "**/*.js.map": true
+    },
+    "files.trimTrailingWhitespace": true
 }

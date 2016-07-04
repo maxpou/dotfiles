@@ -1,0 +1,22 @@
+'atom-text-editor[data-grammar="text html twig"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'
+
+'.editor:not(.mini)':
+  'F12': 'editor:auto-indent'
+
+# # Windows: fix symbols [ and ]
+# 'atom-workspace atom-text-editor:not([mini])':
+#   'ctrl-alt-[': 'unset!'
+#   'ctrl-alt-]': 'unset!'
+#
+# # Windows: fix symbol }
+# 'atom-workspace atom-pane':
+#   'ctrl-alt-=': 'unset!'
+#
+# # Windows: fix symbol €
+# 'atom-workspace':
+#   'ctrl-alt-e': 'unset!'
+
+# F12 to autoindent
+'.editor:not(.mini)':
+  'F12': 'editor:auto-indent'

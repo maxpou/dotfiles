@@ -1,0 +1,31 @@
+"*":
+  "atom-autocomplete-php": {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "fb02f392-51d8-4fb8-a6c4-abaa7137f564"
+  core:
+    disabledPackages: [
+      "linter-phpcs"
+      "php-cs-fixer"
+      "linter-phpmd"
+    ]
+  editor:
+    fontSize: 12
+    invisibles:
+      cr: " "
+      eol: " "
+      space: "."
+      tab: "⇥"
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "c3ba260d-1d6f-0a2a-e225-4cb1984560bf"
+  linter:
+    errorPanelHeight: 24
+  "linter-php": {}
+  "markdown-preview":
+    useGitHubStyle: true
+  welcome:
+    showOnStartup: false
