@@ -3,6 +3,5 @@
     "files.exclude": {
         "**/*.js": {"when": "$(basename).ts"},
         "**/*.js.map": true
-    },
-    "files.trimTrailingWhitespace": true
+    }
 }
