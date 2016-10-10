@@ -11,7 +11,6 @@ ln -sf dotfiles/.aliases .aliases
 ## Git (&hub)
 
 ```sh
-# Git
 ln -sf dotfiles/gitconfig .gitconfig
 ```
 
@@ -29,15 +28,14 @@ Also see [my gist](https://gist.github.com/maxpou/5828f70ba994ee3b365d)
 
 ## VS Code
 
+Extensions (Inside VSCode <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>)
 ```
-# Extensions (Inside VSCode <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>)
 ext install npm-intellisense
 ext install path-intellisense
 ext install vscode-eslint
 ```
 
 ```sh
-# VS Code
 ln -sf $HOME/dotfiles/vscode/keybindings.json $HOME/.config/Code/User/keybindings.json
 ln -sf $HOME/dotfiles/vscode/settings.json $HOME/.config/Code/User/settings.json
 ```
