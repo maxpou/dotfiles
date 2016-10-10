@@ -5,15 +5,14 @@ This setup is intended for Ubuntu. Special thanks to whoever I stole it from :ki
 ## Aliases
 
 ```sh
-cat $HOME/dotfiles/alias.sh >> ~/.zshrc
-source ~/.zshrc
+ln -sf dotfiles/.aliases .aliases
 ```
 
 ## Git (&hub)
 
 ```sh
 # Git
-ln -sf $HOME/dotfiles/gitconfig ~/.gitconfig
+ln -sf dotfiles/gitconfig .gitconfig
 ```
 
 ## ATOM
@@ -31,8 +30,10 @@ Also see [my gist](https://gist.github.com/maxpou/5828f70ba994ee3b365d)
 ## VS Code
 
 ```
-# Extensions (Inside VSCode)
-ext install vscode-icons
+# Extensions (Inside VSCode <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>)
+ext install npm-intellisense
+ext install path-intellisense
+ext install vscode-eslint
 ```
 
 ```sh
