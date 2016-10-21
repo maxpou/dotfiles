@@ -16,6 +16,7 @@ alias cdb='cd $HOME/box/scotch-box'
 alias vup='cd $HOME/box/scotch-box && vagrant up && cd -'
 alias vssh='cd $HOME/box/scotch-box && vagrant ssh && cd -'
 alias vstop='cd $HOME/box/scotch-box && vagrant halt && cd -'
+alias vfix='sudo /sbin/rcvboxdrv setup'
 
 # Git
 alias g="git"
