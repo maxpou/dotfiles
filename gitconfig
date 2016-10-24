@@ -2,21 +2,38 @@
 	email = maxence.poutord@gmail.com
 	name = Maxence POUTORD
 	signingkey = CCE21CA0
+
 [credential]
 	helper = cache --timeout=1200
+
 [color]
 	ui = auto
 	branch = auto
 	diff = auto
 	status = auto
+
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = red
+
+[color "diff"]
+	meta = yellow
+	frag = magenta
+	old = red
+	new = green
+
 [core]
 	ui = true
 	editor = vi
 	autocrlf = false
 	whitespace = trailing-space,space-before-tab
+
 [github]
 	user = maxpou
+
 [commit]
 	gpgsign = true
+
 [push]
-	default = simple
+	default = current

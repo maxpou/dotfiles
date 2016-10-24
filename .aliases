@@ -53,3 +53,8 @@ alias sfprod='sf --env=prod'
 # PHP tools
 alias behat='bin/behat'
 alias punit='phpunit -c app'
+
+# HTTP/REST API
+jsonapi() {
+    http "$@" Accept:application/vnd.api+json Content-Type:application/vnd.api+json
+}
