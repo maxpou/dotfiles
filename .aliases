@@ -58,3 +58,8 @@ alias punit='phpunit -c app'
 jsonapi() {
     http "$@" Accept:application/vnd.api+json Content-Type:application/vnd.api+json
 }
+
+pyserver() {
+    google-chrome "http://0.0.0.0:8000/"
+    python -m SimpleHTTPServer
+}
