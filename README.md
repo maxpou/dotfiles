@@ -1,6 +1,6 @@
 # Dotfiles
 
-This setup is intended for Ubuntu. Special thanks to whoever I stole it from :kissing_heart:
+This setup is intended for Ubuntu (and secondly MacOS). Special thanks to whoever I stole it from :kissing_heart:
 
 ## Aliases
 
@@ -28,16 +28,24 @@ Also see [my gist](https://gist.github.com/maxpou/5828f70ba994ee3b365d)
 
 ## VS Code
 
-Extensions (Inside VSCode <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>)
+Install extensions in shell (or inside VSCode <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>)
+
 ```
-ext install npm-intellisense
-ext install path-intellisense
-ext install vscode-eslint
+code --install-extension christian-kohler.path-intellisense
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension HookyQR.beautify
+code --install-extension akamud.vscode-theme-onedark
+code --install-extension alefragnani.project-manager
+code --install-extension dbaeumer.vscode-eslint
 ```
 
 ```sh
 ln -sf $HOME/dotfiles/vscode/keybindings.json $HOME/.config/Code/User/keybindings.json
 ln -sf $HOME/dotfiles/vscode/settings.json $HOME/.config/Code/User/settings.json
+
+# Mac OS
+ln -sf $HOME/dotfiles/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
+ln -sf $HOME/dotfiles/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 ```
 
 ## Required tools

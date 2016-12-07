@@ -1,7 +1,9 @@
 {
-    "editor.renderWhitespace": true,
+    "editor.renderWhitespace": "boundary",
     "files.exclude": {
         "**/*.js": {"when": "$(basename).ts"},
         "**/*.js.map": true
-    }
+    },
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shell.osx": "/bin/zsh"
 }
