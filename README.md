@@ -37,6 +37,7 @@ code --install-extension HookyQR.beautify
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension alefragnani.project-manager
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension whatwedo.twig
 ```
 
 ```sh
