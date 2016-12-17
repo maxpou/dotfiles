@@ -1,6 +1,4 @@
 {
-    "http.proxy": "http://lt-proxy01.lt.hostelworld.com:3128",
-    "http.proxyStrictSSL": false,
     "editor.renderWhitespace": "boundary",
     "files.exclude": {
         "**/.git": false,
