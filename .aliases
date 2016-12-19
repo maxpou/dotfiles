@@ -42,6 +42,7 @@ alias sfcontainer='sf debug:container'
 alias sfgb='sf generate:bundle'
 alias sfdev='sf --env=dev'
 alias sfprod='sf --env=prod'
+alias gitstashpopforce='git stash show -p | git apply && git stash drop'
 
 # prepareDb() {
 #     sf doctrine:database:drop --force --if-exists --env=test
@@ -53,6 +54,11 @@ alias sfprod='sf --env=prod'
 # PHP tools
 alias behat='bin/behat'
 alias punit='phpunit -c app'
+
+# iMac + dual screen => 💔
+dock() {
+    defaults write com.apple.dock position-immutable -bool YES; killall Dock
+}
 
 # HTTP/REST API
 jsonapi() {
