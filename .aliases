@@ -25,7 +25,6 @@ alias undopush="git push -f origin HEAD^:master"
 
 
 # Others tools: Atom Docker
-alias atom='atom .'
 alias doco='docker-compose'
 
 # Personal projects folders

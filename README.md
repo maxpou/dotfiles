@@ -31,13 +31,20 @@ Also see [my gist](https://gist.github.com/maxpou/5828f70ba994ee3b365d)
 Install extensions in shell (or inside VSCode <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>)
 
 ```
-code --install-extension christian-kohler.path-intellisense
-code --install-extension PeterJausovec.vscode-docker
 code --install-extension HookyQR.beautify
+code --install-extension HvyIndustries.crane
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension abusaidm.html-snippets
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension alefragnani.project-manager
+code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension felixfbecker.php-intellisense
+code --install-extension ikappas.phpcs
+code --install-extension linyang95.phpmd
+code --install-extension robertohuertasm.vscode-icons
 code --install-extension whatwedo.twig
+code --install-extension xabikos.JavaScriptSnippets
 ```
 
 ```sh
