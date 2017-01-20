@@ -56,6 +56,12 @@ ln -sf $HOME/dotfiles/vscode/keybindings.json $HOME/Library/Application\ Support
 ln -sf $HOME/dotfiles/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 ```
 
+## VIM
+
+```sh
+ln -sf dotfiles/vimrc .vimrc
+```
+
 ## Required tools
 
 * [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) + [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)

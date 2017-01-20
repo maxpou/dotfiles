@@ -25,7 +25,7 @@
 
 [core]
 	ui = true
-	editor = vi
+	editor = vim
 	autocrlf = false
 	whitespace = trailing-space,space-before-tab
 
