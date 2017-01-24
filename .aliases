@@ -21,15 +21,12 @@ alias vfix='sudo /sbin/rcvboxdrv setup'
 # Git
 alias g="git"
 alias gc='git commit -v -S'
-alias undopush="git push -f origin HEAD^:master"
+alias git-undopush='git push -f origin HEAD^:master'
+alias git-stashpopforce='git stash show -p | git apply && git stash drop'
+alias gpf='git push --force'
 
-
-# Others tools: Atom Docker
+# Others tools: Docker
 alias doco='docker-compose'
-
-# Personal projects folders
-alias cdp='cd $HOME/sites'
-alias cdlab='cd $HOME/sites/lab'
 
 # Symfony
 alias sf='php app/console'
@@ -41,7 +38,6 @@ alias sfcontainer='sf debug:container'
 alias sfgb='sf generate:bundle'
 alias sfdev='sf --env=dev'
 alias sfprod='sf --env=prod'
-alias gitstashpopforce='git stash show -p | git apply && git stash drop'
 
 # prepareDb() {
 #     sf doctrine:database:drop --force --if-exists --env=test
@@ -53,6 +49,10 @@ alias gitstashpopforce='git stash show -p | git apply && git stash drop'
 # PHP tools
 alias behat='bin/behat'
 alias punit='phpunit -c app'
+
+# Personal projects folders
+alias cdp='cd $HOME/sites'
+alias cdlab='cd $HOME/sites/lab'
 
 # iMac + dual screen => 💔
 dock() {
@@ -67,4 +67,22 @@ jsonapi() {
 pyserver() {
     google-chrome "http://0.0.0.0:8000/"
     python -m SimpleHTTPServer
+}
+
+git-reset-author() {
+    git filter-branch --env-filter '
+    OLD_EMAIL="maxence.poutord@hostelworld.com"
+    CORRECT_NAME="Maxence POUTORD"
+    CORRECT_EMAIL="maxence.poutord@gmail.com"
+    if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
+    then
+        export GIT_COMMITTER_NAME="$CORRECT_NAME"
+        export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
+    fi
+    if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
+    then
+        export GIT_AUTHOR_NAME="$CORRECT_NAME"
+        export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
+    fi
+    ' --tag-name-filter cat -- --branches --tags
 }
