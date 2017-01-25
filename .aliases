@@ -19,6 +19,7 @@ alias vstop='cd $HOME/box/scotch-box && vagrant halt && cd -'
 alias vfix='sudo /sbin/rcvboxdrv setup'
 
 # Git
+alias git=hub
 alias g="git"
 alias gc='git commit -v -S'
 alias git-undopush='git push -f origin HEAD^:master'
@@ -69,9 +70,10 @@ pyserver() {
     python -m SimpleHTTPServer
 }
 
+# using: git-reset-author old-mail@mail.com
 git-reset-author() {
     git filter-branch --env-filter '
-    OLD_EMAIL="maxence.poutord@hostelworld.com"
+    OLD_EMAIL=$1
     CORRECT_NAME="Maxence POUTORD"
     CORRECT_EMAIL="maxence.poutord@gmail.com"
     if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
