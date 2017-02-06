@@ -1,0 +1,11 @@
+execute pathogen#infect()
+
+syntax on
+
+set number              " Show line numbers
+set cursorline          " highlight current line
+set showmatch           " set show matching parenthesis
+set autoindent
+
+colorscheme solarized
+set background=dark

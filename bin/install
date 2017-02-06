@@ -1,0 +1,80 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+CURRENT=$(pwd)
+
+info() {
+    printf "  [ \033[00;34m..\033[0m ] %s\n" "$1"
+}
+
+success() {
+    printf "\r\033[2K  [ \033[00;32mOK\033[0m ] %s\n" "$1"
+}
+
+fail() {
+    printf "\r\033[2K  [\033[0;31mFAIL\033[0m] %s\n" "$1"
+    echo ''
+    exit
+}
+
+link_files() {
+    if [ -L "$2" ] ; then
+        rm -f "$2"
+    fi
+
+    ln -s "$CURRENT/$1" "$2"
+    success "linked $1 to $2"
+}
+
+# zsh
+link_files zshrc ~/.zshrc
+
+# Aliases
+
+# vim
+link_files vim ~/.vim
+link_files vim/vimrc ~/.vimrc
+
+# Git
+link_files .aliases ~/.aliases
+
+
+# ATOM
+info 'Install ATOM plugins'
+apm stars --user maxpou --install
+link_files vscode/keymap.cson ~/.atom/keymap.cson
+link_files vscode/config.cson ~/.atom/config.cson
+
+
+# VSCode
+if [[ $OSTYPE == darwin* ]] ; then
+    # MacOS
+    ln -sf vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+    ln -sf vscode/settings.json    ~/Library/Application\ Support/Code/User/settings.json
+else
+    # Unix
+    ln -sf vscode/keybindings.json ~/.config/Code/User/keybindings.json
+    ln -sf vscode/settings.json    ~/.config/Code/User/settings.json
+fi
+
+info 'Install VSCode plugins'
+code --install-extension HookyQR.beautify
+code --install-extension HvyIndustries.crane
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension abusaidm.html-snippets
+code --install-extension akamud.vscode-theme-onedark
+code --install-extension alefragnani.project-manager
+code --install-extension christian-kohler.path-intellisense
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension felixfbecker.php-intellisense
+code --install-extension ikappas.phpcs
+code --install-extension linyang95.phpmd
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension whatwedo.twig
+code --install-extension xabikos.JavaScriptSnippets
+
+
+
+echo ''
+echo 'All installed 😀'

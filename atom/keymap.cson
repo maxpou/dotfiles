@@ -1,9 +1,6 @@
 'atom-text-editor[data-grammar="text html twig"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
 
-'.editor:not(.mini)':
-  'F12': 'editor:auto-indent'
-
 # # Windows: fix symbols [ and ]
 # 'atom-workspace atom-text-editor:not([mini])':
 #   'ctrl-alt-[': 'unset!'
