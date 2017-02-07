@@ -42,16 +42,16 @@ link_files .aliases ~/.aliases
 
 # ATOM
 info 'Install ATOM plugins'
-apm stars --user maxpou --install
-link_files vscode/keymap.cson ~/.atom/keymap.cson
-link_files vscode/config.cson ~/.atom/config.cson
+# apm stars --user maxpou --install
+link_files atom/keymap.cson ~/.atom/keymap.cson
+link_files atom/config.cson ~/.atom/config.cson
 
 
 # VSCode
 if [[ $OSTYPE == darwin* ]] ; then
     # MacOS
-    ln -sf vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-    ln -sf vscode/settings.json    ~/Library/Application\ Support/Code/User/settings.json
+    ln -sf vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
+    ln -sf vscode/settings.json    ~/Library/Application Support/Code/User/settings.json
 else
     # Unix
     ln -sf vscode/keybindings.json ~/.config/Code/User/keybindings.json

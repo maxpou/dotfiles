@@ -6,5 +6,8 @@
         "**/*.js.map": true
     },
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "terminal.integrated.shell.osx": "/bin/zsh"
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "vsicons.dontShowNewVersionMessage": false,
+    "vsicons.presets.angular": false,
+    "vsicons.projectDetection.disableDetect": true
 }
