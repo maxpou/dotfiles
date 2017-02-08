@@ -9,6 +9,7 @@
       "php-cs-fixer"
       "linter-phpmd"
     ]
+    telemetryConsent: "limited"
   editor:
     fontSize: 12
     invisibles:

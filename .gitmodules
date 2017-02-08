@@ -1,3 +1,9 @@
 [submodule "vim/bundle/vim-hybrid"]
 	path = vim/bundle/vim-hybrid
 	url = https://github.com/w0ng/vim-hybrid
+[submodule "vim/bundle/flavored-markdown"]
+	path = vim/bundle/flavored-markdown
+	url = https://github.com/jtratner/vim-flavored-markdown.git
+[submodule "vim/bundle/vim-gitgutter"]
+	path = vim/bundle/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git

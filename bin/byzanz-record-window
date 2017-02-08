@@ -6,7 +6,7 @@ DELAY=5
 
 # Sound notification to let one know when recording is about to start (and ends)
 beep() {
-    paplay /usr/share/sounds/KDE-Im-Irc-Event.ogg &
+    echo -ne '\007'
 }
 
 # Duration and output file

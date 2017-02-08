@@ -1,7 +1,6 @@
 alias cls='clear'
 alias cd..="cd .."
 alias ..="cd .."
-alias -- -="cd -"
 alias ls='ls $LS_OPTIONS -hF'
 alias ll='ls $LS_OPTIONS -lAhF'
 alias hosts='sudo $EDITOR /etc/hosts'
@@ -11,23 +10,43 @@ alias mv='mv -v'
 # alias rm='rm -i -v'
 alias cp='cp -v'
 
+# Git
+alias git=hub
+alias g="git"
+alias gc='git commit -v'
+alias git-undopush='git push -f origin HEAD^:master'
+alias git-stashpopforce='git stash show -p | git apply && git stash drop'
+alias gpf='git push --force'
+
+# using: git-reset-author old-mail@mail.com
+git-reset-author() {
+    git filter-branch --env-filter '
+    OLD_EMAIL="maxence.poutord@hostelworld.com"
+    CORRECT_NAME="Maxence POUTORD"
+    CORRECT_EMAIL="maxence.poutord@gmail.com"
+    if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
+    then
+        export GIT_COMMITTER_NAME="$CORRECT_NAME"
+        export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
+    fi
+    if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
+    then
+        export GIT_AUTHOR_NAME="$CORRECT_NAME"
+        export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
+    fi
+    ' --tag-name-filter cat -- --branches --tags
+}
+
+
+# Docker
+alias doco='docker-compose'
+
 # Vagrant
 alias cdb='cd $HOME/box/scotch-box'
 alias vup='cd $HOME/box/scotch-box && vagrant up && cd -'
 alias vssh='cd $HOME/box/scotch-box && vagrant ssh && cd -'
 alias vstop='cd $HOME/box/scotch-box && vagrant halt && cd -'
 alias vfix='sudo /sbin/rcvboxdrv setup'
-
-# Git
-alias git=hub
-alias g="git"
-alias gc='git commit -v -S'
-alias git-undopush='git push -f origin HEAD^:master'
-alias git-stashpopforce='git stash show -p | git apply && git stash drop'
-alias gpf='git push --force'
-
-# Others tools: Docker
-alias doco='docker-compose'
 
 # Symfony
 alias sf='php app/console'
@@ -70,21 +89,24 @@ pyserver() {
     python -m SimpleHTTPServer
 }
 
-# using: git-reset-author old-mail@mail.com
-git-reset-author() {
-    git filter-branch --env-filter '
-    OLD_EMAIL=$1
-    CORRECT_NAME="Maxence POUTORD"
-    CORRECT_EMAIL="maxence.poutord@gmail.com"
-    if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
-    then
-        export GIT_COMMITTER_NAME="$CORRECT_NAME"
-        export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
-    fi
-    if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
-    then
-        export GIT_AUTHOR_NAME="$CORRECT_NAME"
-        export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
-    fi
-    ' --tag-name-filter cat -- --branches --tags
+#################
+#    PROXY      #
+#################
+enableProxy() {
+    export http_proxy=$HTTPPROXY
+    export https_proxy=$HTTPSPROXY
+}
+
+disableProxy() {
+    unset http_proxy
+    unset https_proxy
+}
+
+# WTF Composer (https://github.com/composer/composer/issues/3611#issuecomment-72067198)
+disableHttpsProxyOnly() {
+    export http_proxy=$HTTPPROXY
+    export HTTP_PROXY=$HTTPPROXY
+
+    export https_proxy=
+    export HTTPS_PROXY=
 }
