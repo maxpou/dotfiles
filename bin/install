@@ -36,6 +36,10 @@ link_files vim/vimrc ~/.vimrc
 
 # Aliases
 link_files .aliases ~/.aliases
+if ! [ -f .aliases_custom ]; then
+    info 'create new empty aliases_custom file'
+    touch .aliases_custom
+fi
 link_files .aliases_custom ~/.aliases_custom
 
 

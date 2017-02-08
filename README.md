@@ -8,6 +8,9 @@ This setup is intended for Ubuntu (and secondly MacOS). Special thanks to whoeve
 ```bash
 git clone https://github.com/maxpou/dotfiles.git --recursive
 cd dotfiles && bin/install
+
+# For server:
+cd dotfiles && bin/install_server
 ```
 
 ## Required tools
