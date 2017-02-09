@@ -37,6 +37,16 @@ git-reset-author() {
     ' --tag-name-filter cat -- --branches --tags
 }
 
+git-standup() {
+    AUTHOR=${AUTHOR:="`git config user.name`"}
+
+    since=yesterday
+    if [[ $(date +%u) == 1 ]] ; then
+        since="2 days ago"
+    fi
+
+    git log --all --since "$since" --oneline --author="$AUTHOR"
+}
 
 # Docker
 alias doco='docker-compose'
