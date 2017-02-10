@@ -6,25 +6,33 @@ filetype on
 filetype plugin on
 filetype indent on
 
+set encoding=utf8
+
+" airline
+let g:airline_powerline_fonts = 1
+
 " Color scheme
 set background=dark
 let g:solarized_termtrans = 1  " MacOS (iTerm)
 colorscheme hybrid
 
-
+set relativenumber      " relative line number (usefull for dd command!)
 set number              " Show line numbers
 set cursorline          " highlight current line
 set showmatch           " set show matching parenthesis
 set autoindent          " autoindent
+set copyindent          " copy the previous indentation on autoindenting
 set ignorecase          " set case insensitivity
 set mouse=a             " enable mouse
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+set list
+
 
 " NERDTree (type :NERDTree)
 " NERDTree automatically when vim starts up if no files were specified
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-" close vim if the only window left open is a NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 
 
 " GitGutter
