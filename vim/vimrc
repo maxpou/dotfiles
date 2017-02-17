@@ -24,9 +24,9 @@ set autoindent          " autoindent
 set copyindent          " copy the previous indentation on autoindenting
 set ignorecase          " set case insensitivity
 set mouse=a             " enable mouse
-set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
-set list
 
+set listchars=tab:⇥·,trail:~,extends:>,precedes:<,space:.
+set list
 
 " NERDTree (type :NERDTree)
 " NERDTree automatically when vim starts up if no files were specified
