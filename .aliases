@@ -48,6 +48,8 @@ git-standup() {
     git log --all --since "$since" --oneline --author="$AUTHOR"
 }
 
+alias sourcetree='open -a SourceTree'
+
 # Docker
 alias doco='docker-compose'
 
@@ -70,10 +72,10 @@ alias sfdev='sf --env=dev'
 alias sfprod='sf --env=prod'
 
 # prepareDb() {
-#     sf doctrine:database:drop --force --if-exists --env=test
-#     sf doctrine:database:create --env=test
-#     sf doctrine:schema:update --force --env=test
-#     sf doctrine:fixtures:load --no-interaction --env=test
+#    sf doctrine:database:drop --force --if-exists --env=test
+#    sf doctrine:database:create --env=test
+#    sf doctrine:schema:update --force --env=test
+#    sf doctrine:fixtures:load --no-interaction --env=test
 # }
 
 # PHP tools
