@@ -1,12 +1,12 @@
 export ZSH=~/.oh-my-zsh
 export EDITOR='vim'
-export HTTPPROXY=''
-export HTTPSPROXY=''
+export URLPROXY=''
+export HTTPPROXY='http://'$URLPROXY
+export HTTPSPROXY='https://'$URLPROXY
 
 ZSH_THEME="af-magic"
 
 plugins=(git github history composer vagrant docker)
-
 
 # add aliases
 source $HOME/.aliases

@@ -1,5 +1,7 @@
 {
     "editor.renderWhitespace": "boundary",
+    "editor.rulers": [120],
+    "editor.minimap.enabled": true,
     "files.exclude": {
         "**/.git": false,
         "**/*.js": {"when": "$(basename).ts"},
@@ -9,5 +11,7 @@
     "terminal.integrated.shell.osx": "/bin/zsh",
     "vsicons.dontShowNewVersionMessage": false,
     "vsicons.presets.angular": false,
-    "vsicons.projectDetection.disableDetect": true
+    "vsicons.projectDetection.disableDetect": true,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons"
 }

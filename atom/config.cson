@@ -25,6 +25,7 @@
     userId: "c3ba260d-1d6f-0a2a-e225-4cb1984560bf"
   linter:
     errorPanelHeight: 24
+    showErrorPanel: false
   "linter-php": {}
   "markdown-preview":
     useGitHubStyle: true
