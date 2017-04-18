@@ -66,6 +66,7 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension HookyQR.beautify
 code --install-extension HvyIndustries.crane
 code --install-extension PeterJausovec.vscode-docker
+code --install-extension WallabyJs.quokka-vscode
 code --install-extension abusaidm.html-snippets
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension alefragnani.project-manager

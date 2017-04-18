@@ -90,9 +90,11 @@ alias cdlab='cd $HOME/sites/lab'
 dock() {
     defaults write com.apple.dock position-immutable -bool YES; killall Dock
 }
+
 ds_fucking_store() {
     sudo find / -name ".DS_Store" -depth -exec rm {} \;
 }
+
 
 # HTTP/REST API
 jsonapi() {
@@ -118,7 +120,7 @@ enableProxy() {
     export HTTPS_PROXY=$HTTPSPROXY
 
     npm config set proxy $HTTPPROXY
-    npm config set https-proxy $HTTPSPROXY
+    npm config set https-proxy $HTTPPROXY
 }
 
 disableProxy() {
@@ -137,7 +139,7 @@ disableHttpsProxyOnly() {
     export HTTP_PROXY=$URLPROXY
     export HTTP_PROXY REQUEST_FULLURI=true
 
-    //http instead
+    # http instead
     export https_proxy=$URLPROXY
     export HTTPS_PROXY=$URLPROXY
     export HTTPS_PROXY_REQUEST_FULLURI=false
