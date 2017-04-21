@@ -45,7 +45,7 @@ link_files .aliases_custom ~/.aliases_custom
 
 # ATOM
 info 'Install ATOM plugins'
-# apm stars --user maxpou --install
+apm stars --user maxpou --install
 link_files atom/keymap.cson ~/.atom/keymap.cson
 link_files atom/config.cson ~/.atom/config.cson
 
@@ -77,10 +77,10 @@ code --install-extension ikappas.phpcs
 code --install-extension joshpeng.theme-onedark-sublime
 code --install-extension linyang95.phpmd
 code --install-extension liuji-jim.vue
+code --install-extension octref.vetur
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension whatwedo.twig
 code --install-extension xabikos.JavaScriptSnippets
-
 
 
 echo ''

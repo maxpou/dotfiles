@@ -16,7 +16,7 @@ alias g="git"
 alias gc='git commit -v'
 alias git-undopush='git push -f origin HEAD^:master'
 alias git-stashpopforce='git stash show -p | git apply && git stash drop'
-alias gpf='git push --force'
+alias yolo='git push --force'
 
 # using: git-reset-author old-mail@mail.com
 git-reset-author() {

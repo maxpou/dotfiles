@@ -19,14 +19,14 @@
       tab: "⇥"
     showIndentGuide: true
     showInvisibles: true
-    tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "c3ba260d-1d6f-0a2a-e225-4cb1984560bf"
-  linter:
-    errorPanelHeight: 24
-    showErrorPanel: false
+  linter: {}
   "linter-php": {}
+  "linter-ui-default":
+    panelHeight: 59
+    showPanel: true
   "markdown-preview":
     useGitHubStyle: true
   welcome:
