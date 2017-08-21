@@ -70,15 +70,19 @@ code --install-extension WallabyJs.quokka-vscode
 code --install-extension abusaidm.html-snippets
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension alefragnani.project-manager
+code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.githistory
 code --install-extension felixfbecker.php-intellisense
 code --install-extension ikappas.phpcs
+code --install-extension joelday.docthis
 code --install-extension joshpeng.theme-onedark-sublime
 code --install-extension linyang95.phpmd
 code --install-extension liuji-jim.vue
 code --install-extension octref.vetur
 code --install-extension robertohuertasm.vscode-icons
+code --install-extension waderyan.gitblame
 code --install-extension whatwedo.twig
 code --install-extension xabikos.JavaScriptSnippets
 

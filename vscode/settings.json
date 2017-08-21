@@ -1,7 +1,13 @@
 {
+    "editor.autoIndent": true,
+    "editor.minimap.enabled": true,
     "editor.renderWhitespace": "boundary",
     "editor.rulers": [120],
     "editor.tabSize": 2,
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    },
     "editor.minimap.enabled": true,
     "files.exclude": {
         "**/.git": false,
@@ -10,7 +16,7 @@
     },
     "terminal.integrated.shell.linux": "/bin/zsh",
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "vsicons.dontShowNewVersionMessage": false,
+    "vsicons.dontShowNewVersionMessage": true,
     "vsicons.presets.angular": false,
     "vsicons.projectDetection.disableDetect": true,
     "workbench.colorTheme": "Atom One Dark",
