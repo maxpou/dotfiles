@@ -6,7 +6,7 @@ export HTTPSPROXY='https://'$URLPROXY
 
 ZSH_THEME="af-magic"
 
-plugins=(git github history composer vagrant docker)
+plugins=(git github history composer vagrant docker thefuck)
 
 # add aliases
 source $HOME/.aliases

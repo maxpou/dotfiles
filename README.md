@@ -17,6 +17,7 @@ cd dotfiles && bin/install_server
 
 * [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) + [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [Hub](https://github.com/github/hub)
+* [thefuck](https://github.com/nvbn/thefuck#installation)
 
 * [Visual Studio Code (debian)](https://code.visualstudio.com/Docs/?dv=linux64_deb)
 * [Atom (debian)](https://atom.io/download/deb)
