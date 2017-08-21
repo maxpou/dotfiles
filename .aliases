@@ -81,6 +81,7 @@ alias sfprod='sf --env=prod'
 # PHP tools
 alias behat='bin/behat'
 alias punit='phpunit -c app'
+alias phplint='find . -type f -name "*.php" -exec php -l {} \; | grep -v "No syntax errors"'
 
 # Personal projects folders
 alias cdp='cd $HOME/sites'
@@ -109,6 +110,9 @@ pyserver() {
     fi
     python -m SimpleHTTPServer 8000
 }
+
+# WTF
+# alias russian-roulette='[ $(( $RANDOM % 6 )) == 0 ] && rm -rf / || echo "You live"'
 
 #################
 #    PROXY      #
