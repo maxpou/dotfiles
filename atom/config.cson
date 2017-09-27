@@ -3,6 +3,10 @@
   "atom-beautify":
     general:
       _analyticsUserId: "fb02f392-51d8-4fb8-a6c4-abaa7137f564"
+  "atom-package-deps":
+    ignored: [
+      "linter-ui-default"
+    ]
   core:
     disabledPackages: [
       "linter-phpcs"
@@ -25,8 +29,7 @@
   linter: {}
   "linter-php": {}
   "linter-ui-default":
-    panelHeight: 59
-    showPanel: true
+    panelHeight: 69
   "markdown-preview":
     useGitHubStyle: true
   welcome:

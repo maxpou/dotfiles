@@ -58,6 +58,7 @@ alias cdb='cd $HOME/box/scotch-box'
 alias vup='cd $HOME/box/scotch-box && vagrant up && cd -'
 alias vssh='cd $HOME/box/scotch-box && vagrant ssh && cd -'
 alias vstop='cd $HOME/box/scotch-box && vagrant halt && cd -'
+# Vagrant + Ubuntu => 💔
 alias vfix='sudo /sbin/rcvboxdrv setup'
 
 # Symfony
@@ -70,7 +71,6 @@ alias sfcontainer='sf debug:container'
 alias sfgb='sf generate:bundle'
 alias sfdev='sf --env=dev'
 alias sfprod='sf --env=prod'
-
 # prepareDb() {
 #    sf doctrine:database:drop --force --if-exists --env=test
 #    sf doctrine:database:create --env=test

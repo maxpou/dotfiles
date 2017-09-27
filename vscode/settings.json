@@ -8,7 +8,6 @@
         "vue-html": "html",
         "vue": "html"
     },
-    "editor.minimap.enabled": true,
     "files.exclude": {
         "**/.git": false,
         "**/*.js": {"when": "$(basename).ts"},
@@ -20,5 +19,6 @@
     "vsicons.presets.angular": false,
     "vsicons.projectDetection.disableDetect": true,
     "workbench.colorTheme": "Atom One Dark",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": -1
 }

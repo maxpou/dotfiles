@@ -65,6 +65,9 @@ info 'Install VSCode plugins'
 code --install-extension EditorConfig.EditorConfig
 code --install-extension HookyQR.beautify
 code --install-extension HvyIndustries.crane
+code --install-extension James-Yu.latex-workshop
+code --install-extension LaurentTreguier.vscode-simple-icons
+code --install-extension Orta.vscode-jest
 code --install-extension PeterJausovec.vscode-docker
 code --install-extension WallabyJs.quokka-vscode
 code --install-extension abusaidm.html-snippets
@@ -78,12 +81,14 @@ code --install-extension felixfbecker.php-intellisense
 code --install-extension ikappas.phpcs
 code --install-extension joelday.docthis
 code --install-extension joshpeng.theme-onedark-sublime
-code --install-extension linyang95.phpmd
+code --install-extension kisstkondoros.vscode-codemetrics
 code --install-extension liuji-jim.vue
 code --install-extension octref.vetur
 code --install-extension robertohuertasm.vscode-icons
+code --install-extension tinaciousdesign.theme-tinaciousdesign
 code --install-extension waderyan.gitblame
 code --install-extension whatwedo.twig
+code --install-extension wix.vscode-import-cost
 code --install-extension xabikos.JavaScriptSnippets
 
 
