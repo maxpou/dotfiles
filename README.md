@@ -43,12 +43,12 @@ cd dotfiles && bin/install_server
 I use Google Chrome (and Canary) with severals extensions:
 
 * [Pocket (Save to Pocket)](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj): best read it later I found ❤️
-* [Awesome Screenshot](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj): capture + annotate screenshot
+* [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca): every day a new magnificent picture
 * [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg): detect technologies behind a website
 * [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
-* [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca): every day a new magnificent magnificent picture
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): best add blocker I found
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk): audit a webpage and give performace/quality/... metrics
+* [Awesome Screenshot](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj): capture + annotate screenshot
 * [Clear Cache Shortcut](https://chrome.google.com/webstore/detail/clear-cache-shortcut/jnajhcakejgchhbjlchkfmdidgjefleg): clear browser cache in one clic
 
 Dev plugins:
