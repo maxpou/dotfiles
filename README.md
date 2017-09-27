@@ -20,12 +20,13 @@ cd dotfiles && bin/install
 cd dotfiles && bin/install_server
 ```
 
-## Application
+## Application
 
 * [Visual Studio Code (debian)](https://code.visualstudio.com)
 * [Atom (debian)](https://atom.io)
-* :apple: [SourceTree](https://www.sourcetreeapp.com/): a Git CLI (only use for `log`, `blame` and `add`)
-* :penguin: [GitKraken](https://www.gitkraken.com/): a Git CLI (only use for `log`, `blame` and `add`)
+* Git GUI (only use for `log`, `blame` and `add`):
+  * :apple: [SourceTree](https://www.sourcetreeapp.com/)
+  * :penguin: [GitKraken](https://www.gitkraken.com/)
 * [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop): tool to develop API
 
 ## Command Line Apps
