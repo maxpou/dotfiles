@@ -54,3 +54,9 @@ I use Google Chrome (and Canary) with severals extensions:
 Dev plugins:
 * [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd): a must-have for VueJS developement
 * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi): a must-have for React developement
+
+## VSCode
+
+![](./vscode.png)
+
+* [Plugin list](./vscode/install_plugin.sh)
