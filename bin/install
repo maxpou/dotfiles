@@ -63,11 +63,11 @@ fi
 
 info 'Install VSCode plugins'
 code --install-extension EditorConfig.EditorConfig
+code --install-extension Equinusocio.vsc-material-theme
 code --install-extension HookyQR.beautify
-code --install-extension HvyIndustries.crane
 code --install-extension James-Yu.latex-workshop
-code --install-extension LaurentTreguier.vscode-simple-icons
 code --install-extension Orta.vscode-jest
+code --install-extension PKief.material-icon-theme
 code --install-extension PeterJausovec.vscode-docker
 code --install-extension WallabyJs.quokka-vscode
 code --install-extension abusaidm.html-snippets
@@ -77,12 +77,10 @@ code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
-code --install-extension felixfbecker.php-intellisense
-code --install-extension ikappas.phpcs
+code --install-extension flowtype.flow-for-vscode
 code --install-extension joelday.docthis
-code --install-extension joshpeng.theme-onedark-sublime
+code --install-extension jtlowe.vscode-icon-theme
 code --install-extension kisstkondoros.vscode-codemetrics
-code --install-extension liuji-jim.vue
 code --install-extension octref.vetur
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension tinaciousdesign.theme-tinaciousdesign
