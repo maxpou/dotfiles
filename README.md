@@ -22,8 +22,8 @@ cd dotfiles && bin/install_server
 
 ## Application
 
-* [Visual Studio Code (debian)](https://code.visualstudio.com)
-* [Atom (debian)](https://atom.io)
+* [Visual Studio Code](https://code.visualstudio.com)
+* [Atom](https://atom.io)
 * Git GUI (only use for `log`, `blame` and `add`):
   * :apple: [SourceTree](https://www.sourcetreeapp.com/)
   * :penguin: [GitKraken](https://www.gitkraken.com/)
