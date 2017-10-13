@@ -57,6 +57,6 @@ Dev plugins:
 
 ## VSCode
 
-![](./vscode.png)
-
 * [Plugin list](./vscode/install_plugin.sh)
+
+![](./vscode.png)
