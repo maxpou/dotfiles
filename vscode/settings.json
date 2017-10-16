@@ -1,4 +1,5 @@
 {
+    "docker.showExplorer": true,
     "editor.autoIndent": true,
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "boundary",

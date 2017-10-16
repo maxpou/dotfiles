@@ -46,11 +46,17 @@ link_files .aliases_custom ~/.aliases_custom
 # ATOM
 info 'Install ATOM plugins'
 apm stars --user maxpou --install
+
+info 'Install ATOM configuration'
 link_files atom/keymap.cson ~/.atom/keymap.cson
 link_files atom/config.cson ~/.atom/config.cson
 
 
 # VSCode
+info 'Install VSCode plugins'
+source "$(dirname "${BASH_SOURCE[0]}")"/../vscode/install_plugin.sh
+
+info 'Install VSCode configuration'
 if [[ $OSTYPE == darwin* ]] ; then
     # MacOS
     ln -sf vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
@@ -60,9 +66,6 @@ else
     ln -sf vscode/keybindings.json ~/.config/Code/User/keybindings.json
     ln -sf vscode/settings.json    ~/.config/Code/User/settings.json
 fi
-
-info 'Install VSCode plugins'
-source "$(dirname "${BASH_SOURCE[0]}")"/../vscode/install_plugin.sh
 
 
 echo ''
