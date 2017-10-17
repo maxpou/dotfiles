@@ -14,6 +14,7 @@ code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension flowtype.flow-for-vscode
+code --install-extension hoovercj.vscode-power-mode
 code --install-extension joelday.docthis
 code --install-extension jtlowe.vscode-icon-theme
 code --install-extension kisstkondoros.vscode-codemetrics
