@@ -21,7 +21,7 @@
     "vsicons.projectDetection.disableDetect": true,
     "workbench.colorTheme": "Material Theme",
     "workbench.iconTheme": "material-icon-theme",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "materialTheme.cache.workbench.settings": {
         "themeColours": "Palenight",
         "accent": "Teal",
@@ -85,6 +85,8 @@
         "titleBar.inactiveForeground": "#9DA5B4",
         "statusBar.debuggingForeground": "#FFFFFF",
         "extensionButton.prominentBackground": "#2BA143",
-        "extensionButton.prominentHoverBackground": "#37AF4E"
+        "extensionButton.prominentHoverBackground": "#37AF4E",
+        "gitDecoration.modifiedResourceForeground": "#FFAD19",
+        "gitDecoration.untrackedResourceForeground": "#B2D969"
     }
 }
