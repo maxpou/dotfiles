@@ -87,6 +87,7 @@
         "extensionButton.prominentBackground": "#2BA143",
         "extensionButton.prominentHoverBackground": "#37AF4E",
         "gitDecoration.modifiedResourceForeground": "#FFAD19",
-        "gitDecoration.untrackedResourceForeground": "#B2D969"
+        "gitDecoration.untrackedResourceForeground": "#B2D969",
+        "gitDecoration.conflictingResourceForeground": "#E70404"
     }
 }
