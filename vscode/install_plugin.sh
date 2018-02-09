@@ -11,6 +11,7 @@ code --install-extension akamud.vscode-theme-onedark
 code --install-extension alefragnani.project-manager
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
+code --install-extension cssho.vscode-svgviewer
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension flowtype.flow-for-vscode
@@ -20,6 +21,8 @@ code --install-extension jtlowe.vscode-icon-theme
 code --install-extension kisstkondoros.vscode-codemetrics
 code --install-extension octref.vetur
 code --install-extension robertohuertasm.vscode-icons
+code --install-extension rust-lang.rust
+code --install-extension shinnn.stylelint
 code --install-extension tinaciousdesign.theme-tinaciousdesign
 code --install-extension waderyan.gitblame
 code --install-extension whatwedo.twig
