@@ -20,6 +20,7 @@ code --install-extension joelday.docthis
 code --install-extension jtlowe.vscode-icon-theme
 code --install-extension kisstkondoros.vscode-codemetrics
 code --install-extension octref.vetur
+code --install-extension pnp.polacode
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension rust-lang.rust
 code --install-extension shinnn.stylelint
