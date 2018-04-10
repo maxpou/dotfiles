@@ -9,6 +9,10 @@ alias hosts='sudo $EDITOR /etc/hosts'
 alias mv='mv -v'
 # alias rm='rm -i -v'
 alias cp='cp -v'
+function mkcd(){ 
+    mkdir -p $1 
+    cd $1 
+}
 
 # Git
 alias git=hub
@@ -61,26 +65,8 @@ alias vstop='cd $HOME/box/scotch-box && vagrant halt && cd -'
 # Vagrant + Ubuntu => 💔
 alias vfix='sudo /sbin/rcvboxdrv setup'
 
-# Symfony
+# PHP/SF tools
 alias sf='php app/console'
-alias sfcc='sf cache:clear'
-alias sfsr='sf server:run -vvv'
-alias sfcw='sf cache:warmup'
-alias sfroute='sf debug:router'
-alias sfcontainer='sf debug:container'
-alias sfgb='sf generate:bundle'
-alias sfdev='sf --env=dev'
-alias sfprod='sf --env=prod'
-# prepareDb() {
-#    sf doctrine:database:drop --force --if-exists --env=test
-#    sf doctrine:database:create --env=test
-#    sf doctrine:schema:update --force --env=test
-#    sf doctrine:fixtures:load --no-interaction --env=test
-# }
-
-# PHP tools
-alias behat='bin/behat'
-alias punit='phpunit -c app'
 alias phplint='find . -type f -name "*.php" -exec php -l {} \; | grep -v "No syntax errors"'
 
 # Personal projects folders
@@ -111,7 +97,7 @@ pyserver() {
     python -m SimpleHTTPServer 8000
 }
 
-# WTF
+# WTF 😇
 # alias russian-roulette='[ $(( $RANDOM % 6 )) == 0 ] && rm -rf / || echo "You live"'
 
 #################
