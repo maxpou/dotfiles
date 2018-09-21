@@ -37,3 +37,6 @@
 
 [push]
 	default = current
+
+[remote]
+	pushdefault = origin

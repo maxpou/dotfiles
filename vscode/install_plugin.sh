@@ -1,7 +1,6 @@
 code --install-extension EditorConfig.EditorConfig
 code --install-extension Equinusocio.vsc-material-theme
 code --install-extension HookyQR.beautify
-code --install-extension James-Yu.latex-workshop
 code --install-extension Orta.vscode-jest
 code --install-extension PKief.material-icon-theme
 code --install-extension PeterJausovec.vscode-docker
@@ -14,7 +13,7 @@ code --install-extension christian-kohler.path-intellisense
 code --install-extension cssho.vscode-svgviewer
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
-code --install-extension flowtype.flow-for-vscode
+code --install-extension eamodio.gitlens
 code --install-extension hoovercj.vscode-power-mode
 code --install-extension joelday.docthis
 code --install-extension jtlowe.vscode-icon-theme
@@ -22,10 +21,8 @@ code --install-extension kisstkondoros.vscode-codemetrics
 code --install-extension octref.vetur
 code --install-extension pnp.polacode
 code --install-extension robertohuertasm.vscode-icons
-code --install-extension rust-lang.rust
 code --install-extension shinnn.stylelint
 code --install-extension tinaciousdesign.theme-tinaciousdesign
 code --install-extension waderyan.gitblame
-code --install-extension whatwedo.twig
 code --install-extension wix.vscode-import-cost
 code --install-extension xabikos.JavaScriptSnippets

@@ -44,12 +44,12 @@ link_files .aliases_custom ~/.aliases_custom
 
 
 # ATOM
-info 'Install ATOM plugins'
-apm stars --user maxpou --install
+# info 'Install ATOM plugins'
+# apm stars --user maxpou --install
 
-info 'Install ATOM configuration'
-link_files atom/keymap.cson ~/.atom/keymap.cson
-link_files atom/config.cson ~/.atom/config.cson
+# info 'Install ATOM configuration'
+# link_files atom/keymap.cson ~/.atom/keymap.cson
+# link_files atom/config.cson ~/.atom/config.cson
 
 
 # VSCode
