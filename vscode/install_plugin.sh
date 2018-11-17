@@ -18,6 +18,7 @@ code --install-extension hoovercj.vscode-power-mode
 code --install-extension joelday.docthis
 code --install-extension jtlowe.vscode-icon-theme
 code --install-extension kisstkondoros.vscode-codemetrics
+code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension octref.vetur
 code --install-extension pnp.polacode
 code --install-extension robertohuertasm.vscode-icons
