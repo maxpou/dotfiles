@@ -25,7 +25,7 @@ alias yolo='git push --force'
 # using: git-reset-author old-mail@mail.com
 git-reset-author() {
     git filter-branch --env-filter '
-    OLD_EMAIL="maxence.poutord@hostelworld.com"
+    OLD_EMAIL="maxence.poutord@visma.com"
     CORRECT_NAME="Maxence POUTORD"
     CORRECT_EMAIL="maxence.poutord@gmail.com"
     if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
