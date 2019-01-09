@@ -73,6 +73,9 @@ alias phplint='find . -type f -name "*.php" -exec php -l {} \; | grep -v "No syn
 alias cdp='cd $HOME/sites'
 alias cdlab='cd $HOME/sites/lab'
 
+# RAM
+alias ram='ps aux | awk '"'"'{print $6/1024 " MB\t\t" $11}'"'"' | sort -rn | head -25'
+
 # iMac + dual screen => 💔
 dock() {
     defaults write com.apple.dock position-immutable -bool YES; killall Dock
