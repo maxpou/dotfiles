@@ -35,12 +35,12 @@ link_files vim ~/.vim
 link_files vim/vimrc ~/.vimrc
 
 # Aliases
-link_files .aliases ~/.aliases
-if ! [ -f .aliases_custom ]; then
+link_files .aliases.sh ~/.aliases
+if ! [ -f .aliases_custom.sh ]; then
     info 'create new empty aliases_custom file'
-    touch .aliases_custom
+    touch .aliases_custom.sh
 fi
-link_files .aliases_custom ~/.aliases_custom
+link_files .aliases_custom.sh ~/.aliases_custom
 
 
 # ATOM
