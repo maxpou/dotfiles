@@ -100,6 +100,9 @@ pyserver() {
     python -m SimpleHTTPServer 8000
 }
 
+# Greenkeeper
+alias greenkeeper-clean="git fetch -p && git branch --remote | fgrep greenkeeper | sed 's/^.\{9\}//' | xargs git push origin --delete"
+
 # WTF 😇
 # alias russian-roulette='[ $(( $RANDOM % 6 )) == 0 ] && rm -rf / || echo "You live"'
 
