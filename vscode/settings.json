@@ -9,6 +9,10 @@
         "vue-html": "html",
         "vue": "html"
     },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
     "files.exclude": {
         "**/.git": false,
         "**/*.js": {"when": "$(basename).ts"},
