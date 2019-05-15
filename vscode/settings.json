@@ -3,8 +3,13 @@
     "editor.autoIndent": true,
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "boundary",
-    "editor.rulers": [120],
+    "editor.rulers": [140],
     "editor.tabSize": 2,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
     "emmet.syntaxProfiles": {
         "vue-html": "html",
         "vue": "html"
@@ -18,19 +23,11 @@
         "**/*.js": {"when": "$(basename).ts"},
         "**/*.js.map": true
     },
+    "gitblame.ignoreWhitespace": true,
     "terminal.integrated.shell.linux": "/bin/zsh",
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "vsicons.dontShowNewVersionMessage": true,
-    "vsicons.presets.angular": false,
-    "vsicons.projectDetection.disableDetect": true,
-    "workbench.colorTheme": "Material Theme",
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 0,
-    "materialTheme.cache.workbench.settings": {
-        "themeColours": "Palenight",
-        "accent": "Teal",
-        "accentPrevious": "Blue"
-    },
     "workbench.colorCustomizations": {
         "activityBar.background": "#333842",
         "activityBar.foreground": "#D7DAE0",
@@ -68,7 +65,6 @@
         "list.highlightForeground": "#D7DAE0",
         "list.inactiveSelectionBackground": "#2C313A",
         "list.inactiveSelectionForeground": "#D7DAE0",
-        "notification.background": "#21252B",
         "pickerGroup.border": "#528BFF",
         "scrollbarSlider.background": "#4E566680",
         "scrollbarSlider.activeBackground": "#747D9180",
@@ -93,5 +89,13 @@
         "gitDecoration.modifiedResourceForeground": "#FFAD19",
         "gitDecoration.untrackedResourceForeground": "#B2D969",
         "gitDecoration.conflictingResourceForeground": "#E70404"
-    }
+    },
+    "materialTheme.fixIconsRunning": false,
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "workbench.colorTheme": "Material Theme",
+    "jest.autoEnable": false,
+    "jest.runAllTestsFirst": false,
+    "gitlens.advanced.fileHistoryFollowsRenames": false
 }
