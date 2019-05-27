@@ -46,6 +46,7 @@ cd dotfiles && bin/install_server
 * [lighthouse (CLI)](https://github.com/GoogleChrome/lighthouse#cli-options): *(require NPM)* Auditing, performance metrics, and best practices for Progressive Web Apps
 * [vtop](https://github.com/MrRio/vtop) *(require NPM)*
 * [curl](https://github.com/curl/curl)
+* [Tree](https://formulae.brew.sh/formula/tree)
 
 
 ## Browser - Firefox (main)
