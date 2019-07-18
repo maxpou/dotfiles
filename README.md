@@ -34,6 +34,7 @@ cd dotfiles && bin/install_server
 
 * [Plugins that I Can't Live Without](./vscode/install_plugin.sh)
 * [Settings](./vscode/settings.json)
+* [Keybindings](./vscode/keybindings.json)
 
 ![](./vscode.png)
 
@@ -49,7 +50,19 @@ cd dotfiles && bin/install_server
 * [Tree](https://formulae.brew.sh/formula/tree)
 
 
-## Browser - Firefox (main)
+## Browser - Brave (main)
+
+Extensions list for Google Chrome (and Canary):
+
+* [Pocket (Save to Pocket)](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj): best read it later I found ❤️
+* [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): best add blocker I found
+
+Dev plugins:
+* [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd): a must-have for VueJS developement
+* [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi): a must-have for React developement
+
+
+## Browser - Firefox (second)
 
 Extensions list for Firefox:
 
@@ -62,20 +75,3 @@ Extensions list for Firefox:
 
 Dev plugins:
 * [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/): a must-have for VueJS developement
-
-
-## Browser - Chrome (second)
-
-Extensions list for Google Chrome (and Canary):
-
-* [Pocket (Save to Pocket)](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj): best read it later I found ❤️
-* [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca): every day a new magnificent picture
-* [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg): detect technologies behind a website
-* [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
-* [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): best add blocker I found
-* [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk): audit a webpage and give performace/quality/... metrics
-* [Awesome Screenshot](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj): capture + annotate screenshot
-
-Dev plugins:
-* [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd): a must-have for VueJS developement
-* [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi): a must-have for React developement
