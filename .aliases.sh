@@ -49,25 +49,17 @@ git-standup() {
         since="2 days ago"
     fi
 
-    git log --all --since "$since" --oneline --author="$AUTHOR"
+    git log --color --all --graph --since "$since" --author="$AUTHOR" --pretty=format:'%Cred %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %Cgreen(%cr)%Creset %B'
 }
 
-alias sourcetree='open -a SourceTree'
+alias glols='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --stat'
+alias glol='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'
+#                                              │                  │         │          │                  └─ committer name
+#                                              │                  │         │          └─ date (relative)
+#                                              │                  │         └─ message
+#                                              │                  └─ decorations (branch, heads or tags)
+#                                              └─ hash (abbreviated)
 
-# Docker
-alias doco='docker-compose'
-
-# Vagrant
-alias cdb='cd $HOME/box/scotch-box'
-alias vup='cd $HOME/box/scotch-box && vagrant up && cd -'
-alias vssh='cd $HOME/box/scotch-box && vagrant ssh && cd -'
-alias vstop='cd $HOME/box/scotch-box && vagrant halt && cd -'
-# Vagrant + Ubuntu => 💔
-alias vfix='sudo /sbin/rcvboxdrv setup'
-
-# PHP/SF tools
-alias sf='php app/console'
-alias phplint='find . -type f -name "*.php" -exec php -l {} \; | grep -v "No syntax errors"'
 
 # Personal projects folders
 alias cdp='cd $HOME/sites'
