@@ -8,6 +8,7 @@ This setup is intended for:
 
 Special thanks to whoever I stole it from :kissing_heart:
 
+👉 [Full list of Apps, Tools, and Gear I Use](https://www.maxpou.fr/uses)
 
 ## Dotfiles installation
 
@@ -22,12 +23,11 @@ cd dotfiles && bin/install_server
 
 ## Application
 
-* [Visual Studio Code](https://code.visualstudio.com)
-* [Atom](https://atom.io)
-* Git GUI (only use for `log`, `blame` and `add`):
-  * :apple: [SourceTree](https://www.sourcetreeapp.com/)
-  * :penguin: [GitKraken](https://www.gitkraken.com/)
+* [Visual Studio Code (VS Code)](https://code.visualstudio.com)
+* [iTerm] - a terminal (but, I mainly use the CLI in VS Code)
 * [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop): tool to develop API
+* [Sequel Pro](https://www.sequelpro.com/) - a GUI for MySQL
+* [Giphy Capture](https://giphy.com/apps/giphycapture) - a screen recorder
 * [Node/NPM](https://nodejs.org/en/)
 
 ## VSCode
@@ -36,7 +36,7 @@ cd dotfiles && bin/install_server
 * [Settings](./vscode/settings.json)
 * [Keybindings](./vscode/keybindings.json)
 
-![](./vscode.png)
+![VS Code](./vscode.png)
 
 ## Command Line Apps
 
@@ -44,8 +44,8 @@ cd dotfiles && bin/install_server
 * [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh): A framework to manage Zsh configuration
 * [Hub](https://github.com/github/hub): a wrapper for Git command *(Git+Hub=GitHub)*
 * [thefuck](https://github.com/nvbn/thefuck#installation): corrects the previous console command
-* [lighthouse (CLI)](https://github.com/GoogleChrome/lighthouse#cli-options): *(require NPM)* Auditing, performance metrics, and best practices for Progressive Web Apps
-* [vtop](https://github.com/MrRio/vtop) *(require NPM)*
+* [lighthouse (CLI)](https://github.com/GoogleChrome/lighthouse#cli-options): *(requires NPM)* Auditing, performance metrics, and best practices for Progressive Web Apps
+* [vtop](https://github.com/MrRio/vtop) *(requires NPM)*
 * [curl](https://github.com/curl/curl)
 * [Tree](https://formulae.brew.sh/formula/tree)
 

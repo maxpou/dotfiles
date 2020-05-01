@@ -1,6 +1,5 @@
 {
     "docker.showExplorer": true,
-    "editor.autoIndent": true,
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "boundary",
     "editor.rulers": [140],
@@ -43,7 +42,6 @@
         "editor.lineHighlightBackground": "#2C313A",
         "editor.selectionBackground": "#3E4451",
         "editorCursor.foreground": "#528BFF",
-        "editorGroup.background": "#21252B",
         "editorGroup.border": "#181A1F",
         "editorGroupHeader.tabsBackground": "#21252B",
         "editorIndentGuide.background": "#3C4049",
@@ -55,9 +53,12 @@
         "editorSuggestWidget.border": "#181A1F",
         "editorSuggestWidget.selectedBackground": "#2C313A",
         "editorWidget.background": "#21252B",
+        "focusBorder": "#528BFF",
+        "gitDecoration.modifiedResourceForeground": "#FFAD19",
+        "gitDecoration.untrackedResourceForeground": "#B2D969",
+        "gitDecoration.conflictingResourceForeground": "#E70404",
         "input.background": "#1B1D23",
         "input.border": "#181A1F",
-        "focusBorder": "#528BFF",
         "list.activeSelectionBackground": "#2C313A",
         "list.activeSelectionForeground": "#D7DAE0",
         "list.focusBackground": "#2C313A",
@@ -85,17 +86,16 @@
         "titleBar.inactiveForeground": "#9DA5B4",
         "statusBar.debuggingForeground": "#FFFFFF",
         "extensionButton.prominentBackground": "#2BA143",
-        "extensionButton.prominentHoverBackground": "#37AF4E",
-        "gitDecoration.modifiedResourceForeground": "#FFAD19",
-        "gitDecoration.untrackedResourceForeground": "#B2D969",
-        "gitDecoration.conflictingResourceForeground": "#E70404"
+        "extensionButton.prominentHoverBackground": "#37AF4E"
     },
     "materialTheme.fixIconsRunning": false,
     "extensions.ignoreRecommendations": true,
     "explorer.confirmDragAndDrop": false,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "workbench.colorTheme": "Material Theme",
-    "jest.autoEnable": false,
     "jest.runAllTestsFirst": false,
-    "gitlens.advanced.fileHistoryFollowsRenames": false
+    "gitlens.advanced.fileHistoryFollowsRenames": false,
+    "liveshare.featureSet": "insiders",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "jest.debugMode": true,
+    "workbench.colorTheme": "Material Theme"
 }

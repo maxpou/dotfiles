@@ -9,9 +9,9 @@ alias hosts='sudo $EDITOR /etc/hosts'
 alias mv='mv -v'
 # alias rm='rm -i -v'
 alias cp='cp -v'
-function mkcd(){ 
-    mkdir -p $1 
-    cd $1 
+function mkcd(){
+    mkdir -p $1
+    cd $1
 }
 
 # Git
