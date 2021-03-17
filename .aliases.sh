@@ -7,7 +7,7 @@ alias hosts='sudo $EDITOR /etc/hosts'
 
 # mv, rm, cp
 alias mv='mv -v'
-# alias rm='rm -i -v'
+alias rm='rm -v'
 alias cp='cp -v'
 function mkcd(){
     mkdir -p $1
