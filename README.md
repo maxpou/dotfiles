@@ -45,22 +45,24 @@ cd dotfiles && bin/install_server
 * [Hub](https://github.com/github/hub): a wrapper for Git command *(Git+Hub=GitHub)*
 * [thefuck](https://github.com/nvbn/thefuck#installation): corrects the previous console command
 * [lighthouse (CLI)](https://github.com/GoogleChrome/lighthouse#cli-options): *(requires NPM)* Auditing, performance metrics, and best practices for Progressive Web Apps
-* [vtop](https://github.com/MrRio/vtop) *(requires NPM)*
+* [gtop](https://github.com/aksakalli/gtop) *(requires NPM)*
 * [curl](https://github.com/curl/curl)
 * [Tree](https://formulae.brew.sh/formula/tree)
 
 
 ## Browser - Brave (main)
 
-Extensions list for Google Chrome (and Canary):
+Extensions list for Brave (it's a chrome-based browser):
 
 * [Pocket (Save to Pocket)](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj): best read it later I found ❤️
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): best add blocker I found
+* [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp): block trackers
 
 Dev plugins:
 * [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd): a must-have for VueJS developement
 * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi): a must-have for React developement
-
+* [Web Vitals](https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma)
+* [Axe](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) great tool for Web Accessibility Testing
 
 ## Browser - Firefox (second)
 
