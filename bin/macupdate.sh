@@ -24,4 +24,4 @@ npm update -g
 
 
 echo ''
-echo 'All is good, you can now re-enable proxy 😀'
+success 'All is good, you can now re-enable proxy 😀'

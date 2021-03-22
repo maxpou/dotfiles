@@ -24,7 +24,7 @@ cd dotfiles && bin/install_server
 ## Application
 
 * [Visual Studio Code (VS Code)](https://code.visualstudio.com)
-* [iTerm] - a terminal (but, I mainly use the CLI in VS Code)
+* [iTerm2](https://iterm2.com/) - a terminal (but, I mainly use the CLI in VSCode)
 * [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop): tool to develop API
 * [Sequel Pro](https://www.sequelpro.com/) - a GUI for MySQL
 * [Giphy Capture](https://giphy.com/apps/giphycapture) - a screen recorder
@@ -32,22 +32,24 @@ cd dotfiles && bin/install_server
 
 ## VSCode
 
+![VS Code](./.github/vscode.png)
+
 * [Plugins that I Can't Live Without](./vscode/install_plugin.sh)
 * [Settings](./vscode/settings.json)
 * [Keybindings](./vscode/keybindings.json)
 
-![VS Code](./vscode.png)
 
-## Command Line Apps
+## Command-line Apps
+
+![iTerm](./.github/iterm.jpg)
 
 * [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 * [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh): A framework to manage Zsh configuration
 * [Hub](https://github.com/github/hub): a wrapper for Git command *(Git+Hub=GitHub)*
-* [thefuck](https://github.com/nvbn/thefuck#installation): corrects the previous console command
 * [lighthouse (CLI)](https://github.com/GoogleChrome/lighthouse#cli-options): *(requires NPM)* Auditing, performance metrics, and best practices for Progressive Web Apps
-* [gtop](https://github.com/aksakalli/gtop) *(requires NPM)*
-* [curl](https://github.com/curl/curl)
-* [Tree](https://formulae.brew.sh/formula/tree)
+* [gtop](https://github.com/aksakalli/gtop): a system monitoring dashboard *(requires NPM)*
+* [Tree](https://formulae.brew.sh/formula/tree): display directories as trees
+* [SpaceVim](https://spacevim.org): an IDE in my terminal. Mostly use it with git and when I need to open a big file.
 
 
 ## Browser - Brave (main)
@@ -55,7 +57,7 @@ cd dotfiles && bin/install_server
 Extensions list for Brave (it's a chrome-based browser):
 
 * [Pocket (Save to Pocket)](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj): best read it later I found ❤️
-* [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): best add blocker I found
+* [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): best ad blocker I found
 * [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp): block trackers
 
 Dev plugins:

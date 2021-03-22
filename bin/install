@@ -31,25 +31,23 @@ link_files() {
 link_files zshrc ~/.zshrc
 
 # vim
-link_files vim ~/.vim
-link_files vim/vimrc ~/.vimrc
+# link_files vim ~/.vim
+# link_files vim/vimrc ~/.vimrc
+if [ -d "~/.SpaceVim.d" ]; then
+    link_files iterm/init.toml ~/.SpaceVim.d/init.toml
+else
+    info '⚠️ SpaceVim not installed'
+fi
 
 # Aliases
 link_files .aliases.sh ~/.aliases
 if ! [ -f .aliases_custom.sh ]; then
-    info 'create new empty aliases_custom file'
+    info 'Create new empty aliases_custom file'
     touch .aliases_custom.sh
+else
+    info 'ℹ️ aliases_custom already created, skipping'
 fi
 link_files .aliases_custom.sh ~/.aliases_custom
-
-
-# ATOM
-# info 'Install ATOM plugins'
-# apm stars --user maxpou --install
-
-# info 'Install ATOM configuration'
-# link_files atom/keymap.cson ~/.atom/keymap.cson
-# link_files atom/config.cson ~/.atom/config.cson
 
 
 # VSCode

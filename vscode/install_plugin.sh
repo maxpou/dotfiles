@@ -8,7 +8,9 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
+code --install-extension Equinusocio.vsc-community-material-theme
 code --install-extension Equinusocio.vsc-material-theme
+code --install-extension equinusocio.vsc-material-theme-icons
 code --install-extension HookyQR.beautify
 code --install-extension hoovercj.vscode-power-mode
 code --install-extension ionutvmi.path-autocomplete
@@ -32,3 +34,4 @@ code --install-extension WallabyJs.quokka-vscode
 code --install-extension whizkydee.material-palenight-theme
 code --install-extension wix.vscode-import-cost
 code --install-extension xabikos.JavaScriptSnippets
+code --install-extension znck.grammarly
