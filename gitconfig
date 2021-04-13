@@ -3,6 +3,9 @@
 	name = Maxence Poutord
 	signingkey = CCE21CA0
 
+[includeIf "gitdir/i:**/workcompany/**"]
+  email = maxence.poutord@workcompany.com
+
 [credential]
 	helper = cache --timeout=1200
 

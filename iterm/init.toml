@@ -47,3 +47,8 @@ default_height = 30
 [[custom_plugins]]
 repo = "mhartington/oceanic-next"
 merged = 0
+
+[[custom_plugins]]
+name = "MaxMEllon/vim-jsx-pretty"
+merged = false
+
