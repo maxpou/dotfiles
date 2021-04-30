@@ -15,10 +15,10 @@ Special thanks to whoever I stole it from :kissing_heart:
 ```bash
 # Ubuntu / MacOS:
 git clone https://github.com/maxpou/dotfiles.git --recursive
-cd dotfiles && bin/install
+cd dotfiles && bin/install.sh
 
 # Unix server:
-cd dotfiles && bin/install_server
+cd dotfiles && bin/install_server.sh
 ```
 
 ## Application
@@ -51,6 +51,8 @@ cd dotfiles && bin/install_server
 * [Tree](https://formulae.brew.sh/formula/tree): display directories as trees
 * [SpaceVim](https://spacevim.org): an IDE in my terminal. Mostly use it with git and when I need to open a big file.
 
+
+Full list of npm global package is [here](./bin/install-npm-globals.sh).
 
 ## Browser - Brave (main)
 
