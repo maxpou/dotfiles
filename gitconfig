@@ -3,6 +3,7 @@
 	name = Maxence Poutord
 	signingkey = CCE21CA0
 
+# replace workcompany to current company name
 [includeIf "gitdir/i:**/workcompany/**"]
   email = maxence.poutord@workcompany.com
 

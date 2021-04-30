@@ -42,7 +42,7 @@ fi
 # Aliases
 link_files .aliases.sh ~/.aliases
 if ! [ -f .aliases_custom.sh ]; then
-    info 'Create new empty aliases_custom file'
+    info '⚙️ Create new empty aliases_custom file'
     touch .aliases_custom.sh
 else
     info 'ℹ️ aliases_custom already created, skipping'
@@ -51,7 +51,7 @@ link_files .aliases_custom.sh ~/.aliases_custom
 
 
 # VSCode
-info 'Install VSCode plugins'
+info '🛠 Install VSCode plugins'
 source "$(dirname "${BASH_SOURCE[0]}")"/../vscode/install_plugin.sh
 
 info 'Install VSCode configuration'
@@ -64,6 +64,9 @@ else
     ln -sf vscode/keybindings.json ~/.config/Code/User/keybindings.json
     ln -sf vscode/settings.json    ~/.config/Code/User/settings.json
 fi
+
+info '🛠 Install NPM utilities'
+sh ./install-npm-globals.sh
 
 
 echo ''
