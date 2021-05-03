@@ -57,12 +57,12 @@ source "$(dirname "${BASH_SOURCE[0]}")"/../vscode/install_plugin.sh
 info 'Install VSCode configuration'
 if [[ $OSTYPE == darwin* ]] ; then
     # MacOS
-    ln -sf vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
-    ln -sf vscode/settings.json    ~/Library/Application Support/Code/User/settings.json
+    link_files vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+    link_files vscode/settings.json    ~/Library/Application\ Support/Code/User/settings.json
 else
     # Unix
-    ln -sf vscode/keybindings.json ~/.config/Code/User/keybindings.json
-    ln -sf vscode/settings.json    ~/.config/Code/User/settings.json
+    link_files vscode/keybindings.json ~/.config/Code/User/keybindings.json
+    link_files vscode/settings.json    ~/.config/Code/User/settings.json
 fi
 
 info '🛠 Install NPM utilities'
