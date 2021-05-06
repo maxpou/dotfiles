@@ -1,7 +1,7 @@
 [user]
 	email = maxence.poutord@gmail.com
 	name = Maxence Poutord
-	signingkey = CCE21CA0
+	signingkey = C5BFB78661F229C3
 
 # replace workcompany to current company name
 [includeIf "gitdir/i:**/workcompany/**"]
@@ -32,6 +32,7 @@
 	editor = vim
 	autocrlf = false
 	whitespace = trailing-space,space-before-tab
+	excludesfile = ~/.gitignore_global
 
 [github]
 	user = maxpou

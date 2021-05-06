@@ -41,18 +41,21 @@ cd dotfiles && bin/install_server.sh
 
 ## Command-line Apps
 
-![iTerm](./.github/iterm.jpg)
+![iTerm](./.github/terminal.png)
 
 * [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
-* [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh): A framework to manage Zsh configuration
+* [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh): a framework to manage Zsh configuration
+* [powerlevel10k](https://github.com/romkatv/powerlevel10k): a theme for zsh
 * [Hub](https://github.com/github/hub): a wrapper for Git command *(Git+Hub=GitHub)*
 * [lighthouse (CLI)](https://github.com/GoogleChrome/lighthouse#cli-options): *(requires NPM)* Auditing, performance metrics, and best practices for Progressive Web Apps
 * [gtop](https://github.com/aksakalli/gtop): a system monitoring dashboard *(requires NPM)*
 * [Tree](https://formulae.brew.sh/formula/tree): display directories as trees
 * [SpaceVim](https://spacevim.org): an IDE in my terminal. Mostly use it with git and when I need to open a big file.
 
-
-Full list of npm global package is [here](./bin/install-npm-globals.sh).
+**Configuration:**  
+* [List of npm global package](./bin/install-npm-globals.sh).
+* [[iterm2] Colors config file](./iterm/md.itermcolors). 
+* Using minimal apparence (preference > apparence > theme: minimal)
 
 ## Browser - Brave (main)
 
@@ -61,6 +64,8 @@ Extensions list for Brave (it's a chrome-based browser):
 * [Pocket (Save to Pocket)](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj): best read it later I found ❤️
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): best ad blocker I found
 * [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp): block trackers
+* [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen/related?hl=en): helps for typos
+* [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=fr): my Password Manager
 
 Dev plugins:
 * [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd): a must-have for VueJS developement

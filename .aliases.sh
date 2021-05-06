@@ -17,6 +17,7 @@ function mkcd(){
 # Git
 alias git=hub
 alias g="git"
+alias gst="git status"
 alias gc='git commit -v'
 alias git-undopush='git push -f origin HEAD^:master'
 alias git-stashpopforce='git stash show -p | git apply && git stash drop'
@@ -121,17 +122,17 @@ disableProxy() {
     npm config delete https-proxy
 }
 
-# WTF Composer
-disableHttpsProxyOnly() {
-    export http_proxy=$URLPROXY
-    export HTTP_PROXY=$URLPROXY
-    export HTTP_PROXY REQUEST_FULLURI=true
+# # WTF Composer
+# disableHttpsProxyOnly() {
+#     export http_proxy=$URLPROXY
+#     export HTTP_PROXY=$URLPROXY
+#     export HTTP_PROXY REQUEST_FULLURI=true
 
-    # http instead
-    export https_proxy=$URLPROXY
-    export HTTPS_PROXY=$URLPROXY
-    export HTTPS_PROXY_REQUEST_FULLURI=false
-}
+#     # http instead
+#     export https_proxy=$URLPROXY
+#     export HTTPS_PROXY=$URLPROXY
+#     export HTTPS_PROXY_REQUEST_FULLURI=false
+# }
 
 # Show/hide hidden files (starting with a `.`)
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'

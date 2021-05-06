@@ -1,5 +1,4 @@
 {
-    "docker.showExplorer": true,
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "boundary",
     "editor.rulers": [140],
@@ -100,5 +99,8 @@
     "liveshare.featureSet": "insiders",
     "diffEditor.ignoreTrimWhitespace": false,
     "jest.debugMode": true,
-    "workbench.colorTheme": "Material Theme"
+    "workbench.colorTheme": "Material Theme",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontWeight": null
 }

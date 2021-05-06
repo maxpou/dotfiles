@@ -28,10 +28,14 @@ link_files() {
 }
 
 # zsh
+info '🛠 .zshrc & .gitconfig (global)'
 link_files zshrc ~/.zshrc
+link_files gitconfig ~/.gitconfig
+git config --global core.excludesfile ~/.gitignore_global
+echo .DS_Store > ~/.gitignore_global
 
 # vim
-# link_files vim ~/.vim
+link_files vim ~/.vim
 # link_files vim/vimrc ~/.vimrc
 if [ -d "~/.SpaceVim.d" ]; then
     link_files iterm/init.toml ~/.SpaceVim.d/init.toml
@@ -52,7 +56,7 @@ link_files .aliases_custom.sh ~/.aliases_custom
 
 # VSCode
 info '🛠 Install VSCode plugins'
-source "$(dirname "${BASH_SOURCE[0]}")"/../vscode/install_plugin.sh
+sh ./vscode/install_plugin.sh
 
 info 'Install VSCode configuration'
 if [[ $OSTYPE == darwin* ]] ; then
@@ -66,7 +70,7 @@ else
 fi
 
 info '🛠 Install NPM utilities'
-sh ./install-npm-globals.sh
+sh bin/install-npm-globals.sh
 
 
 echo ''
