@@ -28,23 +28,22 @@ cd dotfiles && bin/install_server.sh
 * [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop): tool to develop API
 * [Sequel Pro](https://www.sequelpro.com/) - a GUI for MySQL
 * [Giphy Capture](https://giphy.com/apps/giphycapture) - a screen recorder
-* [Node/NPM](https://nodejs.org/en/)
 
 ## VSCode
 
 ![VS Code](./.github/vscode.png)
 
 * [Plugins that I Can't Live Without](./vscode/install_plugin.sh)
-* [Settings](./vscode/settings.json)
-* [Keybindings](./vscode/keybindings.json)
+* [Settings file](./vscode/settings.json)
+* [Keybindings file](./vscode/keybindings.json)
 
 
 ## Command-line Apps
 
 ![iTerm](./.github/terminal.png)
 
-* [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
-* [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh): a framework to manage Zsh configuration
+**Highlights:**  
+* [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) + [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh): a framework to manage Zsh configuration
 * [powerlevel10k](https://github.com/romkatv/powerlevel10k): a theme for zsh
 * [Hub](https://github.com/github/hub): a wrapper for Git command *(Git+Hub=GitHub)*
 * [lighthouse (CLI)](https://github.com/GoogleChrome/lighthouse#cli-options): *(requires NPM)* Auditing, performance metrics, and best practices for Progressive Web Apps
@@ -53,9 +52,10 @@ cd dotfiles && bin/install_server.sh
 * [SpaceVim](https://spacevim.org): an IDE in my terminal. Mostly use it with git and when I need to open a big file.
 
 **Configuration:**  
-* [List of npm global package](./bin/install-npm-globals.sh).
 * [[iterm2] Colors config file](./iterm/md.itermcolors). 
 * Using minimal apparence (preference > apparence > theme: minimal)
+* [List of npm global package](./bin/install-npm-globals.sh)
+* [List of homebrew formulae](./bin/install-brew.sh)
 
 ## Browser - Brave (main)
 
