@@ -2,9 +2,9 @@
 
 This setup is intended for: 
 
+* :apple: MacOS
 * :penguin: Ubuntu
 * :penguin: Unix Server (CLI/Bash only)
-* :apple: MacOS
 
 Special thanks to whoever I stole it from :kissing_heart:
 
