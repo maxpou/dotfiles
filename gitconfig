@@ -4,8 +4,8 @@
 	signingkey = C5BFB78661F229C3
 
 # replace workcompany to current company name
-[includeIf "gitdir/i:**/workcompany/**"]
-  email = maxence.poutord@workcompany.com
+# [includeIf "gitdir/i:**/workcompany/**"]
+#   email = maxence.poutord@workcompany.com
 
 [credential]
 	helper = cache --timeout=1200
@@ -45,3 +45,9 @@
 
 [remote]
 	pushdefault = origin
+
+[gpg]
+	program = gpg2
+
+# [pull]
+# 	rebase = true

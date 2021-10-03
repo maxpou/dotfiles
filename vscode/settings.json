@@ -24,11 +24,11 @@
         "**/*.js": {"when": "$(basename).ts"},
         "**/*.js.map": true
     },
+    "importCost.timeout": 100000,
     "gitblame.ignoreWhitespace": true,
     "terminal.integrated.shell.linux": "/bin/zsh",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "workbench.iconTheme": "material-icon-theme",
-    "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
         "activityBar.background": "#333842",
         "activityBar.foreground": "#D7DAE0",
@@ -59,7 +59,7 @@
         "gitDecoration.modifiedResourceForeground": "#FFAD19",
         "gitDecoration.untrackedResourceForeground": "#B2D969",
         "gitDecoration.conflictingResourceForeground": "#E70404",
-        "input.background": "#1B1D23",
+        "input.background": "#424756",
         "input.border": "#181A1F",
         "list.activeSelectionBackground": "#2C313A",
         "list.activeSelectionForeground": "#D7DAE0",
@@ -102,5 +102,7 @@
     "workbench.colorTheme": "Material Theme",
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.fontWeight": null
+    "terminal.integrated.fontWeight": null,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
