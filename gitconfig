@@ -49,5 +49,11 @@
 [gpg]
 	program = gpg2
 
-# [pull]
-# 	rebase = true
+[pull]
+	rebase = false
+
+[init]
+	defaultBranch = main
+
+[help]
+	autocorrect = 30

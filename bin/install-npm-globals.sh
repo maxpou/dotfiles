@@ -5,5 +5,6 @@ npm i -g git-stats
 npm i -g gtop
 npm i -g lighthouse
 npm i -g n
+npm i -g npm-check
 npm i -g serve
 npm i -g yalc

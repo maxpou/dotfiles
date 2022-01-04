@@ -14,7 +14,7 @@ Special thanks to whoever I stole it from :kissing_heart:
 
 ```bash
 # Ubuntu / MacOS:
-git clone https://github.com/maxpou/dotfiles.git --recursive
+git clone https://github.com/maxpou/dotfiles.git
 cd dotfiles && bin/install.sh
 
 # Unix server:
@@ -78,7 +78,6 @@ Dev plugins:
 Extensions list for Firefox:
 
 * Pocket (Save to Pocket): best read it later I found ❤️ (added by default)
-* [Momentum](https://addons.mozilla.org/en-US/firefox/addon/momentumdash/): every day a new magnificent picture
 * [Grammarly](https://addons.mozilla.org/fr/firefox/addon/grammarly-1/): flags mistakes, typos...
 * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/momentumdash/): can't live without addblocker
 * [Wappalyzer](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/): detect technologies behind a website

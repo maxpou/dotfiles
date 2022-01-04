@@ -36,7 +36,6 @@ echo .DS_Store > ~/.gitignore_global
 
 # vim
 link_files vim ~/.vim
-# link_files vim/vimrc ~/.vimrc
 if [ -d "~/.SpaceVim.d" ]; then
     link_files iterm/init.toml ~/.SpaceVim.d/init.toml
 else
@@ -72,6 +71,16 @@ fi
 info '🛠 Install NPM utilities'
 sh bin/install-npm-globals.sh
 
+
+info '🛠 Finder'
+# Show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+# Show hidden files
+defaults write com.apple.finder AppleShowAllFiles YES
+# Show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
+# For my 27" screen
+defaults -currentHost write -g AppleFontSmoothing -int 0
 
 echo ''
 echo 'All installed 😀'
