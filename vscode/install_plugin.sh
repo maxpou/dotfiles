@@ -1,5 +1,6 @@
 code --install-extension abusaidm.html-snippets
 code --install-extension alefragnani.project-manager
+code --install-extension apollographql.vscode-apollo
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension cssho.vscode-svgviewer
@@ -11,7 +12,9 @@ code --install-extension Equinusocio.vsc-community-material-theme
 code --install-extension Equinusocio.vsc-material-theme
 code --install-extension equinusocio.vsc-material-theme-icons
 code --install-extension esbenp.prettier-vscode
+code --install-extension GitHub.copilot
 code --install-extension GitHub.vscode-pull-request-github
+code --install-extension GraphQL.vscode-graphql
 code --install-extension HookyQR.beautify
 code --install-extension hoovercj.vscode-power-mode
 code --install-extension jpoissonnier.vscode-styled-components
@@ -30,5 +33,6 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension waderyan.gitblame
 code --install-extension WallabyJs.quokka-vscode
 code --install-extension whizkydee.material-palenight-theme
+code --install-extension withfig.fig
 code --install-extension wix.vscode-import-cost
 code --install-extension znck.grammarly
