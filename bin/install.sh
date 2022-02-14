@@ -62,6 +62,8 @@ if [[ $OSTYPE == darwin* ]] ; then
     # MacOS
     link_files vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
     link_files vscode/settings.json    ~/Library/Application\ Support/Code/User/settings.json
+    mkdir -p ~/Library/Application\ Support/Code/User/snippets
+    ln -s $CURRENT/vscode/snippets/*.json  ~/Library/Application\ Support/Code/User/snippets
 else
     # Unix
     link_files vscode/keybindings.json ~/.config/Code/User/keybindings.json

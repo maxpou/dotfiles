@@ -12,6 +12,7 @@ fi
 
 export ZSH=~/.oh-my-zsh
 export EDITOR='vim'
+export HUSKY=0 # Fuck you Husky
 # export URLPROXY=''
 # export HTTPPROXY='http://'$URLPROXY
 # export HTTPSPROXY='https://'$URLPROXY

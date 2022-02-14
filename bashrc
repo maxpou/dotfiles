@@ -1,4 +1,5 @@
 export EDITOR='vim'
+export HUSKY=0 # Fuck you Husky
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then

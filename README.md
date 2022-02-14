@@ -45,6 +45,7 @@ cd dotfiles && bin/install_server.sh
 **Highlights:**  
 * [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) + [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh): a framework to manage Zsh configuration
 * [powerlevel10k](https://github.com/romkatv/powerlevel10k): a theme for zsh
+* [Fig](https://fig.io/): supercharge CLI for better autocompletion (npm scripts, change directory, git commands...)
 * [Hub](https://github.com/github/hub): a wrapper for Git command *(Git+Hub=GitHub)*
 * [lighthouse (CLI)](https://github.com/GoogleChrome/lighthouse#cli-options): *(requires NPM)* Auditing, performance metrics, and best practices for Progressive Web Apps
 * [gtop](https://github.com/aksakalli/gtop): a system monitoring dashboard *(requires NPM)*
@@ -79,7 +80,7 @@ Extensions list for Firefox:
 
 * Pocket (Save to Pocket): best read it later I found ❤️ (added by default)
 * [Grammarly](https://addons.mozilla.org/fr/firefox/addon/grammarly-1/): flags mistakes, typos...
-* [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/momentumdash/): can't live without addblocker
+* [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/momentumdash/): best ad blocker I found
 * [Wappalyzer](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/): detect technologies behind a website
 * [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/): My Password Manager
 
