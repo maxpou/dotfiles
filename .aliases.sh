@@ -146,3 +146,12 @@ function airport() {
   sudo ifconfig en0 up
   echo "Your new physical address is $mac"
 }
+
+function setupPrettier() {
+    mkdir -p .vscode
+    echo '{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+' > .vscode/settings.json
+}
