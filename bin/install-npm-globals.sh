@@ -1,10 +1,6 @@
-npm i -g @vue/cli
-npm i -g axe-cli
-npm i -g eslint
-npm i -g git-stats
-npm i -g gtop
-npm i -g lighthouse
-npm i -g n
-npm i -g npm-check
-npm i -g serve
-npm i -g yalc
+npm i -g 
+npm i -g corepack
+npm i -g generator-code
+npm i -g npm
+npm i -g vsce
+npm i -g yo

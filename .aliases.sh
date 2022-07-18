@@ -99,41 +99,6 @@ alias greenkeeper-clean="git fetch -p && git branch --remote | fgrep greenkeeper
 # WTF 😇
 # alias russian-roulette='[ $(( $RANDOM % 6 )) == 0 ] && rm -rf / || echo "You live"'
 
-#################
-#    PROXY      #
-#################
-enableProxy() {
-    export http_proxy=$HTTPPROXY
-    export https_proxy=$HTTPSPROXY
-    export HTTP_PROXY=$HTTPPROXY
-    export HTTPS_PROXY=$HTTPSPROXY
-
-    npm config set proxy $HTTPPROXY
-    npm config set https-proxy $HTTPPROXY
-}
-
-disableProxy() {
-    unset http_proxy
-    unset https_proxy
-    unset HTTP_PROXY
-    unset HTTPS_PROXY
-
-    npm config delete proxy
-    npm config delete https-proxy
-}
-
-# # WTF Composer
-# disableHttpsProxyOnly() {
-#     export http_proxy=$URLPROXY
-#     export HTTP_PROXY=$URLPROXY
-#     export HTTP_PROXY REQUEST_FULLURI=true
-
-#     # http instead
-#     export https_proxy=$URLPROXY
-#     export HTTPS_PROXY=$URLPROXY
-#     export HTTPS_PROXY_REQUEST_FULLURI=false
-# }
-
 # Show/hide hidden files (starting with a `.`)
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
