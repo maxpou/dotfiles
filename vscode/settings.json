@@ -109,6 +109,10 @@
     "**/*.js.map": true,
     "**/.git": false
   },
+  "files.associations": {
+    ".env.*": "env",
+    ".env.local.*": "env"
+  },
   "terminal.integrated.shell.linux": "/bin/zsh",
   "editor.rulers": [140],
   "emmet.includeLanguages": {
@@ -119,7 +123,6 @@
     "vue-html": "html"
   },
   "importCost.timeout": 100000,
-  "diffEditor.ignoreTrimWhitespace": false,
   "materialTheme.fixIconsRunning": false,
   "terminal.integrated.fontWeight": null,
   "eslint.options": {
@@ -150,5 +153,9 @@
     "commit": false,
     "publish": false,
     "sync": false
-  }
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.codeLensFontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "githubPullRequests.pullBranch": "never",
+  "git.mergeEditor": false
 }
