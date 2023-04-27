@@ -1,10 +1,9 @@
 code --install-extension abusaidm.html-snippets
 code --install-extension alefragnani.project-manager
-code --install-extension apollographql.vscode-apollo
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
+# code --install-extension Codeium.codeium
 code --install-extension cssho.vscode-svgviewer
-code --install-extension csstools.postcss
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension eamodio.gitlens
@@ -39,4 +38,5 @@ code --install-extension WallabyJs.quokka-vscode
 code --install-extension whizkydee.material-palenight-theme
 code --install-extension withfig.fig
 code --install-extension wix.vscode-import-cost
+code --install-extension yoavbls.pretty-ts-errors
 code --install-extension znck.grammarly

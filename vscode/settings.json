@@ -114,7 +114,7 @@
     ".env.local.*": "env"
   },
   "terminal.integrated.shell.linux": "/bin/zsh",
-  "editor.rulers": [140],
+  "editor.rulers": [80],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -148,7 +148,6 @@
   "githubIssues.useBranchForIssues": "off",
   "materialTheme.accent": "Purple",
   "workbench.layoutControl.enabled": false,
-  "window.zoomLevel": 1,
   "git.showActionButton": {
     "commit": false,
     "publish": false,
@@ -157,5 +156,6 @@
   "vsicons.dontShowNewVersionMessage": true,
   "editor.codeLensFontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "githubPullRequests.pullBranch": "never",
-  "git.mergeEditor": false
+  "git.mergeEditor": false,
+  "window.zoomLevel": 1
 }
