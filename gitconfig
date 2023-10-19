@@ -47,7 +47,7 @@
 	pushdefault = origin
 
 [gpg]
-	program = gpg2
+	program = gpg
 
 [pull]
 	rebase = false

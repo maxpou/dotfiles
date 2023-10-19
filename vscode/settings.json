@@ -157,5 +157,7 @@
   "editor.codeLensFontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "githubPullRequests.pullBranch": "never",
   "git.mergeEditor": false,
+  "circleci.hostUrl": "",
+  "circleci.notifications.areActive": "no",
   "window.zoomLevel": 1
 }

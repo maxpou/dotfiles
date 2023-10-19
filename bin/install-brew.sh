@@ -10,3 +10,4 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 
 # cask
 brew cask install iterm2
+brew cask install pgadmin4

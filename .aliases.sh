@@ -18,7 +18,6 @@ alias git=hub
 alias g="git"
 alias gst="git status"
 alias gc='git commit -v'
-alias git-undopush='git push -f origin HEAD^:master'
 alias git-stashpopforce='git stash show -p | git apply && git stash drop'
 alias git-cleanbranches="git for-each-ref --format '%(refname:short)' refs/heads | grep -v \"master\|main\" | xargs git branch -D"
 alias yolo='git push --force'
