@@ -1,7 +1,7 @@
 [user]
 	email = maxence.poutord@gmail.com
 	name = Maxence Poutord
-	signingkey = C5BFB78661F229C3
+	signingkey = 4DF87D6E6EA27929
 
 # replace workcompany to current company name
 # [includeIf "gitdir/i:**/workcompany/**"]
@@ -57,3 +57,6 @@
 
 [help]
 	autocorrect = 30
+
+[branch]
+	sort = -committerdate
