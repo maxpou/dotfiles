@@ -45,8 +45,7 @@ cd dotfiles && bin/install_server.sh
 **Highlights:**  
 * [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) + [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh): a framework to manage Zsh configuration
 * [powerlevel10k](https://github.com/romkatv/powerlevel10k): a theme for zsh
-* [Fig](https://fig.io/): supercharge CLI for better autocompletion (npm scripts, change directory, git commands...)
-* [Hub](https://github.com/github/hub): a wrapper for Git command *(Git+Hub=GitHub)*
+* [Q (ex-Fig)](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-getting-started-installing.html): supercharge CLI for better autocompletion (npm scripts, change directory, git commands...)
 * [lighthouse (CLI)](https://github.com/GoogleChrome/lighthouse#cli-options): *(requires NPM)* Auditing, performance metrics, and best practices for Progressive Web Apps
 * [gtop](https://github.com/aksakalli/gtop): a system monitoring dashboard *(requires NPM)*
 * [Tree](https://formulae.brew.sh/formula/tree): display directories as trees
@@ -62,15 +61,14 @@ cd dotfiles && bin/install_server.sh
 
 Extensions list for Brave (it's a chrome-based browser):
 
-* [Pocket (Save to Pocket)](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj): best read it later I found ❤️
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): best ad blocker I found
 * [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp): block trackers
 * [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen/related?hl=en): helps for typos
 * [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=fr): my Password Manager
 
 Dev plugins:
-* [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd): a must-have for VueJS developement
 * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi): a must-have for React developement
+* [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd): a must-have for VueJS developement
 * [Web Vitals](https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma)
 * [Axe](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) great tool for Web Accessibility Testing
 
@@ -81,8 +79,4 @@ Extensions list for Firefox:
 * Pocket (Save to Pocket): best read it later I found ❤️ (added by default)
 * [Grammarly](https://addons.mozilla.org/fr/firefox/addon/grammarly-1/): flags mistakes, typos...
 * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/momentumdash/): best ad blocker I found
-* [Wappalyzer](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/): detect technologies behind a website
 * [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/): My Password Manager
-
-Dev plugins:
-* [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/): a must-have for VueJS developement
