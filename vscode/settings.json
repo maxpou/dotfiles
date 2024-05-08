@@ -1,13 +1,69 @@
 {
-  "editor.tabSize": 2,
+  "circleci.hostUrl": "",
+  "circleci.notifications.areActive": "no",
+  "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
+  "editor.codeLensFontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [80],
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "vue": "html",
+    "vue-html": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+  },
   "eslint.validate": ["javascript", "javascriptreact", "vue"],
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    ".env.*": "env",
+    ".env.local.*": "env"
+  },
+  "files.exclude": {
+    "**/*.js.map": true,
+    "**/.git": false
+  },
+  "git.mergeEditor": false,
+  "git.showActionButton": {
+    "commit": false,
+    "publish": false,
+    "sync": false
+  },
+  "gitblame.ignoreWhitespace": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "mdx": false
+  },
+  "githubIssues.useBranchForIssues": "off",
+  "githubPullRequests.pullBranch": "never",
+  "githubPullRequests.terminalLinksHandler": "github",
+  "gitlens.advanced.fileHistoryFollowsRenames": false,
+  "importCost.timeout": 100000,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "liveshare.featureSet": "insiders",
+  "materialTheme.accent": "Purple",
+  "materialTheme.fixIconsRunning": false,
+  "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.env.osx": {
     "Q_NEW_SESSION": "1"
   },
-  "gitblame.ignoreWhitespace": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.zoomLevel": 1,
   "workbench.colorCustomizations": {
     "list.activeSelectionBackground": "#2C313A",
     "diffEditor.insertedTextBackground": "#00809B33",
@@ -26,7 +82,7 @@
     "editor.lineHighlightBackground": "#2C313A",
     "gitDecoration.conflictingResourceForeground": "#E70404",
     "editorGroup.border": "#181A1F",
-    "editorIndentGuide.background": "#3C4049",
+    "editorIndentGuide.background1": "#3C4049",
     "list.inactiveSelectionForeground": "#D7DAE0",
     "sideBar.foreground": "#d7dae0",
     "statusBarItem.hoverBackground": "#2C313A",
@@ -71,10 +127,7 @@
     "[Material Theme]": {
       "activityBarBadge.background": "#DA7FC3",
       "activityBar.activeBorder": "#DA7FC3",
-      // "list.activeSelectionForeground": "#DA7FC3",
       "list.inactiveSelectionForeground": "#DA7FC3",
-      // "list.highlightForeground": "#DA7FC3",
-      // "scrollbarSlider.activeBackground": "#DA7FC3",
       "editorSuggestWidget.highlightForeground": "#DA7FC3",
       "textLink.foreground": "#DA7FC3",
       "progressBar.background": "#DA7FC3",
@@ -94,70 +147,7 @@
       "statusBarItem.remoteBackground": "#DA7FC3"
     }
   },
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": true,
-    "plaintext": false,
-    "markdown": true,
-    "typescript": true,
-    "quokka-output": false,
-    "javascript": true,
-    "mdx": false
-  },
-  "emmet.triggerExpansionOnTab": true,
-  "files.exclude": {
-    "**/*.js.map": true,
-    "**/.git": false
-  },
-  "files.associations": {
-    ".env.*": "env",
-    ".env.local.*": "env"
-  },
-  "terminal.integrated.shell.linux": "/bin/zsh",
-  "editor.rulers": [80],
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "vue": "html",
-    "vue-html": "html"
-  },
-  "importCost.timeout": 100000,
-  "materialTheme.fixIconsRunning": false,
-  "terminal.integrated.fontWeight": null,
-  "eslint.options": {
-    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
-  },
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "editor.accessibilitySupport": "off",
-  "editor.renderWhitespace": "boundary",
-  "gitlens.advanced.fileHistoryFollowsRenames": false,
-  "extensions.ignoreRecommendations": true,
-  "editor.suggestSelection": "first",
-  "jest.autoRun": "off",
-  "editor.inlineSuggest.enabled": true,
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "explorer.confirmDragAndDrop": false,
-  "liveshare.featureSet": "insiders",
-  "terminal.external.osxExec": "iTerm.app",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.minimap.enabled": true,
   "workbench.colorTheme": "Material Theme",
-  "githubPullRequests.terminalLinksHandler": "github",
-  "githubIssues.useBranchForIssues": "off",
-  "materialTheme.accent": "Purple",
-  "workbench.layoutControl.enabled": false,
-  "git.showActionButton": {
-    "commit": false,
-    "publish": false,
-    "sync": false
-  },
-  "vsicons.dontShowNewVersionMessage": true,
-  "editor.codeLensFontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-  "githubPullRequests.pullBranch": "never",
-  "git.mergeEditor": false,
-  "circleci.hostUrl": "",
-  "circleci.notifications.areActive": "no",
-  "window.zoomLevel": 1
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false
 }
