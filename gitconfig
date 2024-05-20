@@ -39,6 +39,7 @@
 
 [commit]
 	gpgsign = true
+	verbose = true
 
 [push]
 	default = current
@@ -56,7 +57,16 @@
 	defaultBranch = main
 
 [help]
-	autocorrect = 30
+	autocorrect = 10
 
 [branch]
 	sort = -committerdate
+
+[rebase]
+	autoStash = true
+
+[fetch]
+	prune = true
+
+[rerere]
+	enabled = true
