@@ -40,6 +40,7 @@
     "sync": false
   },
   "gitblame.ignoreWhitespace": true,
+  "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -51,6 +52,7 @@
   "gitlens.advanced.fileHistoryFollowsRenames": false,
   "importCost.timeout": 100000,
   "javascript.updateImportsOnFileMove.enabled": "never",
+  "jest.enable": false,
   "liveshare.featureSet": "insiders",
   "materialTheme.accent": "Purple",
   "materialTheme.fixIconsRunning": false,

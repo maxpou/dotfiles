@@ -21,9 +21,14 @@
 	changed = yellow
 	untracked = red
 
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
 [color "diff"]
-	meta = yellow
-	frag = magenta
+	meta = yellow bold
+	frag = magenta bold
 	old = red
 	new = green
 
@@ -42,7 +47,8 @@
 	verbose = true
 
 [push]
-	default = current
+	default = simple
+	autoSetupRemote = true
 
 [remote]
 	pushdefault = origin
@@ -61,6 +67,12 @@
 
 [branch]
 	sort = -committerdate
+
+# [log]
+# 	abbrevCommit = true
+
+[tag]
+	sort = -version:refname
 
 [rebase]
 	autoStash = true
