@@ -16,6 +16,10 @@
 	diff = auto
 	status = auto
 
+[delta]
+	line-numbers = true
+	navigate = true # use n and N to move between diff sections
+
 [color "status"]
 	added = green
 	changed = yellow
@@ -38,6 +42,7 @@
 	autocrlf = false
 	whitespace = trailing-space,space-before-tab
 	excludesfile = ~/.gitignore_global
+	pager = delta --features "$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo default || echo GitHub)"
 
 [github]
 	user = maxpou
@@ -81,4 +86,4 @@
 	prune = true
 
 [rerere]
-	enabled = true
+	enabled = false
