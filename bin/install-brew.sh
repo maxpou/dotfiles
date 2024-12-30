@@ -5,10 +5,11 @@ brew install tree
 brew install hub
 brew install gnupg
 brew install delta
-
-brew install romkatv/powerlevel10k/powerlevel10k
-echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+brew install starship
+brew install zsh-autosuggestions
 
 # cask
-brew cask install iterm2
-brew cask install pgadmin4
+brew install --cask iterm2
+brew install --cask pgadmin4
+brew install --cask vlc
+brew install --cask visual-studio-code

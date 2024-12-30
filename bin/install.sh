@@ -31,6 +31,8 @@ link_files() {
 info '🛠 .zshrc & .gitconfig (global)'
 link_files zshrc ~/.zshrc
 link_files gitconfig ~/.gitconfig
+mkdir -p ~/.config
+link_files starship.toml ~/.config/starship.toml
 git config --global core.excludesfile ~/.gitignore_global
 echo .DS_Store > ~/.gitignore_global
 

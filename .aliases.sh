@@ -1,5 +1,8 @@
 alias cd..="cd .."
 alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
 alias ls='ls $LS_OPTIONS -hF'
 alias ll='ls $LS_OPTIONS -lAhF'
 alias hosts='sudo $EDITOR /etc/hosts'
@@ -21,6 +24,9 @@ alias gc='git commit -v'
 alias git-stashpopforce='git stash show -p | git apply && git stash drop'
 alias git-cleanbranches="git for-each-ref --format '%(refname:short)' refs/heads | grep -v \"master\|main\" | xargs git branch -D"
 alias yolo='git push --force'
+alias gco='git checkout'
+alias ga='git add'
+alias gp='git push'
 
 # using: git-reset-author old-mail@mail.com
 git-reset-author() {
@@ -118,4 +124,12 @@ function setupPrettier() {
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 ' > .vscode/settings.json
+}
+
+# when CrossOver&Age of Empire is down
+function killAoE() {
+  kill -9 $(ps aux | grep '[P]rogram Files' | awk '{print $2}')
+  kill -9 $(ps aux | grep '[A]ge of Empires II' | awk '{print $2}')
+  kill -9 $(ps aux | grep '[S]team' | awk '{print $2}')
+  kill -9 $(ps aux | grep '[e]xplorer\.exe' | awk '{print $2}')
 }
