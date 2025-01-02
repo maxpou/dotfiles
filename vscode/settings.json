@@ -4,6 +4,8 @@
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeLensFontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Hack Nerd Font, Fira Code",
+  "editor.fontLigatures": false,
   "editor.guides.bracketPairs": "active",
   "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": true,
@@ -42,11 +44,15 @@
   "gitblame.ignoreWhitespace": true,
   "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
-    "*": true,
-    "mdx": false,
-    "plaintext": false
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "mdx": false
   },
+  "githubIssues.issueCompletions.enabled": false,
   "githubIssues.useBranchForIssues": "off",
+  "githubIssues.userCompletions.enabled": false,
+  "githubPullRequests.defaultMergeMethod": "squash",
   "githubPullRequests.pullBranch": "never",
   "githubPullRequests.terminalLinksHandler": "github",
   "gitlens.advanced.fileHistoryFollowsRenames": false,
@@ -153,8 +159,5 @@
   },
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.layoutControl.enabled": false,
-  "githubPullRequests.defaultMergeMethod": "squash",
-  "githubIssues.issueCompletions.enabled": false,
-  "githubIssues.userCompletions.enabled": false
+  "workbench.layoutControl.enabled": false  
 }
