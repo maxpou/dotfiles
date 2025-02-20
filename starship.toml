@@ -6,10 +6,10 @@ add_newline = false
 command_timeout=100
 
 format = """
-[](color_pink)\
+[](color_white)\
 $os\
 $username\
-[](bg:color_bluelight fg:color_pink)\
+[](bg:color_bluelight fg:color_white)\
 $directory\
 [](fg:color_bluelight bg:color_yellow)\
 $git_branch\
@@ -30,11 +30,12 @@ $conda\
 $time\
 $cmd_duration\
 [ ](fg:color_bg1)\
-$line_break$character"""
+$line_break\
+$character"""
 
-palette = 'gruvbox_dark'
+palette = 'my_theme'
 
-[palettes.gruvbox_dark]
+[palettes.my_theme]
 color_fg0 = '#fbf1c7'
 color_bg1 = '#3c3836'
 color_bg3 = '#665c54'
@@ -45,21 +46,26 @@ color_orange = '#d65d0e'
 color_purple = '#b16286'
 color_red = '#cc241d'
 color_yellow = '#edcd4a'
-color_pink = '#ffffff'
+color_white = '#ffffff'
 color_bluelight = '#6aaeff'
 
 [os]
 disabled = false
-style = "bg:color_pink fg:color_fg0"
+style = "bg:color_white fg:color_fg0"
 
 [os.symbols]
 Macos = " "
 
 [username]
 show_always = false
-style_user = "bg:color_pink fg:color_fg0"
-style_root = "bg:color_pink fg:color_fg0"
+style_user = "bg:color_white fg:color_fg0"
+style_root = "bg:color_white fg:color_fg0"
 format = '[ $user ]($style)'
+
+[fill]
+symbol = " "
+style = 'green'
+disabled = false
 
 [directory]
 style = "fg:color_fg0 bg:color_bluelight"
@@ -67,21 +73,25 @@ format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
-[directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = "󰝚 "
-"Pictures" = " "
-"Developer" = "󰲋 "
-
 [git_branch]
 symbol = ""
 style = "bg:color_yellow"
 format = '[[ $symbol $branch ](fg:color_fg0 bg:color_yellow)]($style)'
 
 [git_status]
-style = "bg:color_yellow"
-format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_yellow)]($style)'
+style = "bg:color_yellow white"
+up_to_date = ""
+renamed = "👅"
+conflicted = "🏳"
+behind = "😰 ${count}"
+stashed = " ${count} "
+staged = "+$count "
+deleted = "󰗨 ${count} "
+ahead = "⇡${count} "
+modified = " ${count} "
+untracked = " ${count} "
+diverged = "⇕⇡${ahead_count}⇣${behind_count} "
+format = "[[($conflicted$modified$staged$renamed$deleted)]($style)($ahead_behind$stashed)]($style)"
 
 [nodejs]
 symbol = ""

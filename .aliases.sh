@@ -65,7 +65,7 @@ alias glol='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %C
 #                                              │                  │         └─ message
 #                                              │                  └─ decorations (branch, heads or tags)
 #                                              └─ hash (abbreviated)
-
+alias glog='git log --oneline --decorate --all --graph'
 
 # Personal projects folders
 alias cdp='cd $HOME/sites'

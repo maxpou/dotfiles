@@ -44,7 +44,7 @@
   "gitblame.ignoreWhitespace": true,
   "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": false,
     "mdx": false
@@ -67,7 +67,7 @@
   "terminal.integrated.env.osx": {
     "Q_NEW_SESSION": "1"
   },
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "Fira Code, Hack Nerd Font, MesloLGS NF",
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "typescript.updateImportsOnFileMove.enabled": "always",
