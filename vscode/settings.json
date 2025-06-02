@@ -126,7 +126,7 @@
       "menubar.selectionForeground": "#DA7FC3",
       "notificationLink.foreground": "#DA7FC3",
       "panelTitle.activeBorder": "#DA7FC3",
-      "panel.background": "#2E333E",
+      "panel.background": "#333842",
       "pickerGroup.border": "#528BFF",
       "pickerGroup.foreground": "#DA7FC3",
       "progressBar.background": "#DA7FC3",
@@ -149,15 +149,17 @@
       "tab.activeBorder": "#DA7FC3",
       "tab.border": "#181A1F",
       "tab.inactiveBackground": "#21252B",
-      "terminal.background": "#2E333E",
+      "terminal.background": "#333842", // here
       "textLink.foreground": "#DA7FC3",
       "titleBar.activeBackground": "#21252B",
       "titleBar.activeForeground": "#9DA5B4",
       "titleBar.inactiveBackground": "#21252B",
-      "titleBar.inactiveForeground": "#9DA5B4"    
+      "titleBar.inactiveForeground": "#9DA5B4"
     }
   },
-  "workbench.colorTheme": "Sublime Material Theme - Dark",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.layoutControl.enabled": false  
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Atom One Dark",
+  "github.copilot.chat.codesearch.enabled": true,
+  "database-client.autoSync": true
 }
