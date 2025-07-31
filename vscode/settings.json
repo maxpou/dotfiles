@@ -21,10 +21,6 @@
     "vue-html": "html"
   },
   "emmet.triggerExpansionOnTab": true,
-  "eslint.options": {
-    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
-  },
-  "eslint.validate": ["javascript", "javascriptreact", "vue"],
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
@@ -161,5 +157,5 @@
   "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Atom One Dark",
   "github.copilot.chat.codesearch.enabled": true,
-  "database-client.autoSync": true
+  "github.copilot.nextEditSuggestions.enabled": true
 }
